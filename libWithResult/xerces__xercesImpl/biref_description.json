@@ -1,0 +1,21 @@
+{
+  "library_name": "xerces:xercesImpl",
+  "core_problem_solved": "To provide a robust, fully compliant, and configurable XML parser that implements standard Java APIs like JAXP, DOM, and SAX for reading, manipulating, and validating XML documents.",
+  "key_features": [
+    "A high-performance, validating XML parser supporting DOM and SAX models",
+    "A certified implementation of the Java API for XML Processing (JAXP)",
+    "Support for XML Schema, DTDs, and Namespaces"
+  ],
+  "era_and_niche": "A foundational and highly influential XML parser in the Java ecosystem. It served as the default JAXP implementation included in many official Sun/Oracle JDK releases for a long period.",
+  "reason_for_obsolescence": "This is a **legacy library**. While historically important, the XML parser and JAXP implementation bundled with modern JDKs are now mature and sufficient for most standard parsing tasks. Adding Xerces as an external dependency is generally no longer necessary for new projects. For specialized high-performance needs, a StAX parser like **Woodstox** is often preferred.",
+  "keywords_for_analysis": [
+    "XML",
+    "parser",
+    "JAXP",
+    "DOM",
+    "SAX",
+    "validation",
+    "legacy",
+    "Woodstox"
+  ]
+}

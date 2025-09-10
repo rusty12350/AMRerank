@@ -1,0 +1,23 @@
+{
+  "library_name": "com.thoughtworks.xstream:xstream",
+  "core_problem_solved": "To provide a simple library for serializing Java objects to XML and back again, without requiring modifications to the objects (like mappings or annotations).",
+  "key_features": [
+    "Reflection-based serialization of arbitrary Plain Old Java Objects (POJOs)",
+    "Clean and human-readable XML output",
+    "Ability to deserialize XML back into complete object graphs",
+    "A focus on ease of use with a zero-configuration approach"
+  ],
+  "era_and_niche": "A popular XML serialization library in the mid-to-late 2000s, praised for its simplicity and ability to serialize almost any object without prior mapping.",
+  "reason_for_obsolescence": "This is a **legacy library and its use is strongly discouraged**. It has a well-documented history of **critical security vulnerabilities** related to arbitrary code execution during deserialization from untrusted XML. The modern, safer, and standard approaches for Java-to-XML data binding are **JAXB** (the Jakarta XML Binding standard) or the **Jackson XML extension** (`com.fasterxml.jackson.dataformat:jackson-dataformat-xml`).",
+  "keywords_for_analysis": [
+    "XML",
+    "serialization",
+    "deserialization",
+    "XStream",
+    "vulnerability",
+    "RCE",
+    "legacy",
+    "JAXB",
+    "Jackson"
+  ]
+}

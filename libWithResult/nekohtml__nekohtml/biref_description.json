@@ -1,0 +1,20 @@
+{
+  "library_name": "nekohtml:nekohtml",
+  "core_problem_solved": "To parse potentially malformed, real-world HTML into a clean stream of SAX events or a DOM tree, by correcting for common syntax errors like unclosed tags.",
+  "key_features": [
+    "Tolerant HTML parsing",
+    "Tag balancing to fix malformed documents",
+    "Implements standard parser interfaces (SAX, DOM) via wrappers"
+  ],
+  "era_and_niche": "An early and important error-tolerant HTML parser for Java, used by other tools and frameworks (like Apache Xerces) that needed to process messy HTML as if it were clean XML.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. It was superseded by the more standard coordinate **`net.sourceforge.nekohtml:nekohtml`**. Furthermore, the entire NekoHTML project itself has been largely superseded by the more modern and feature-rich HTML parser **`jsoup`**.",
+  "keywords_for_analysis": [
+    "HTML",
+    "parser",
+    "SAX",
+    "DOM",
+    "web scraping",
+    "Xerces",
+    "jsoup"
+  ]
+}

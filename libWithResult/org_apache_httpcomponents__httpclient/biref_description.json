@@ -1,0 +1,20 @@
+{
+  "library_name": "org.apache.httpcomponents:httpclient",
+  "core_problem_solved": "To provide a modern, feature-rich, and highly extensible HTTP client library for Java, enabling robust communication with web services and servers.",
+  "key_features": [
+    "A rich and highly configurable API for building and executing HTTP requests",
+    "Advanced connection management and connection pooling for high performance",
+    "Support for various authentication schemes (Basic, Digest, NTLM, etc.) and cookie management",
+    "A modular architecture with support for extensions"
+  ],
+  "era_and_niche": "A leading, modern HTTP client in the Java enterprise ecosystem. It is the official, ground-up rewrite and successor to the original, obsolete `commons-httpclient:commons-httpclient`.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is one of the three major choices for HTTP clients in modern Java, alongside **OkHttp** (`com.squareup.okhttp3:okhttp`) and the native **Java 11+ `HttpClient`**. The native client is often preferred for new projects to reduce external dependencies if its feature set is sufficient.",
+  "keywords_for_analysis": [
+    "HTTP client",
+    "networking",
+    "Apache HttpComponents",
+    "REST",
+    "OkHttp",
+    "Java 11 HttpClient"
+  ]
+}

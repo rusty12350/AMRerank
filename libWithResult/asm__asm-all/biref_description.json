@@ -1,0 +1,16 @@
+{
+  "library_name": "asm:asm-all",
+  "core_problem_solved": "To provide all modules of the ASM bytecode framework (core, commons, tree, etc.) in a single, convenient 'uber-jar' under its legacy Maven coordinate.",
+  "key_features": [
+    "Bundled all ASM modules into a single JAR file to simplify dependency management in older build systems like Ant."
+  ],
+  "era_and_niche": "A convenience artifact for the original ASM distribution, used to simplify the inclusion of the entire framework without needing to manage individual module dependencies.",
+  "reason_for_obsolescence": "This artifact is **doubly obsolete**. First, its coordinate `asm:asm-all` was superseded when the project moved to the **`org.ow2.asm`** groupId. Second, the 'uber-jar' approach itself is a deprecated practice. The modern approach is to use modular dependencies from the `org.ow2.asm` group (e.g., `org.ow2.asm:asm`, `org.ow2.asm:asm-commons`).",
+  "keywords_for_analysis": [
+    "bytecode",
+    "ASM",
+    "uber-jar",
+    "legacy",
+    "dependency management"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "org.seleniumhq.selenium:selenium-java",
+  "core_problem_solved": "To provide the official Java language bindings for the Selenium WebDriver API, enabling developers to write browser automation scripts and tests in Java.",
+  "key_features": [
+    "The Java implementation of the `WebDriver` interface",
+    "Client code for communicating with browser drivers (e.g., ChromeDriver, GeckoDriver) and the Selenium Server/Grid",
+    "Utility classes for common operations like explicit waits, alerts, and selecting options"
+  ],
+  "era_and_niche": "The standard library for any Java developer writing browser automation tests. It is a core component of the modern Java QA and testing ecosystem.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. Higher-level wrapper libraries like **Selenide** are often used on top of it to simplify test writing by providing a more fluent API. In the broader testing space, it competes with newer, often JavaScript-based frameworks like **Playwright** and **Cypress**.",
+  "keywords_for_analysis": [
+    "Selenium",
+    "WebDriver",
+    "browser automation",
+    "testing",
+    "Java",
+    "Selenide",
+    "Playwright",
+    "Cypress"
+  ]
+}

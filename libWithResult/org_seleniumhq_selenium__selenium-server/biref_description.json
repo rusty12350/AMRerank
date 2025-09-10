@@ -1,0 +1,20 @@
+{
+  "library_name": "org.seleniumhq.selenium:selenium-server",
+  "core_problem_solved": "To provide a standalone server that allows for running Selenium tests on remote machines, managing a grid of different browsers and operating systems, and enabling parallel test execution.",
+  "key_features": [
+    "Acts as a proxy between test scripts and browser drivers",
+    "Includes the Selenium Grid functionality for creating a hub and nodes for parallel testing",
+    "Allows tests to be executed on machines that do not have the test code locally"
+  ],
+  "era_and_niche": "A key component for scaling Selenium test execution in large CI/CD pipelines and cross-browser testing environments.",
+  "reason_for_obsolescence": "This component is **not obsolete** and is a core part of the Selenium ecosystem. However, the rise of cloud-based testing grid providers (like Sauce Labs, BrowserStack) and container-based solutions (like Selenoid or Zalenium with Kubernetes) provide modern, managed alternatives to running and maintaining your own `selenium-server` grid.",
+  "keywords_for_analysis": [
+    "Selenium",
+    "Selenium Grid",
+    "browser automation",
+    "testing",
+    "CI/CD",
+    "Testcontainers",
+    "Sauce Labs"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "library_name": "antlr:stringtemplate",
+  "core_problem_solved": "To provide a Java-based template engine that strictly enforces the separation of model (business logic) and view (presentation), ensuring templates themselves remain free of complex logic.",
+  "key_features": [
+    "A simple template language with strict rules against complex logic (e.g., no arithmetic, no arbitrary method calls)",
+    "Group-based template organization and template inheritance",
+    "Strong focus on ensuring a clean Model-View-Controller (MVC) separation"
+  ],
+  "era_and_niche": "A specialized template engine created by the author of ANTLR, appealing to developers who prioritize a pure model-view separation. It is particularly well-suited for generating highly structured text formats like source code or configuration files.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained, but it serves a specific philosophical niche. The broader Java community has largely standardized on more flexible template engines like **Thymeleaf** (for web applications) and **FreeMarker** (for general use), which allow more logic and convenience within the templates themselves.",
+  "keywords_for_analysis": [
+    "template engine",
+    "MVC",
+    "code generation",
+    "model-view separation",
+    "ANTLR",
+    "Thymeleaf",
+    "FreeMarker"
+  ]
+}

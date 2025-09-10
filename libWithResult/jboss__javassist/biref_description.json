@@ -1,0 +1,22 @@
+{
+  "library_name": "jboss:javassist",
+  "core_problem_solved": "To provide a high-level API for manipulating Java bytecode, enabling developers to modify existing classes or create new classes at runtime without dealing with the complexity of raw bytecode instructions.",
+  "key_features": [
+    "Source-level API that accepts strings of Java code for modification",
+    "Bytecode-level API for finer-grained control",
+    "Dynamic class creation and method instrumentation",
+    "A key enabler for Aspect-Oriented Programming (AOP) and dynamic framework features"
+  ],
+  "era_and_niche": "A foundational bytecode manipulation library, widely used in the Java enterprise ecosystem, particularly within JBoss/WildFly, Hibernate, and other frameworks that require runtime code generation.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. However, it competes with other bytecode libraries. While more flexible than the older `cglib`, the modern library **Byte Buddy** is now often considered the state-of-the-art in this space due to its powerful fluent API and is being adopted by many new frameworks and versions of existing ones (like Hibernate).",
+  "keywords_for_analysis": [
+    "bytecode",
+    "AOP",
+    "proxy",
+    "code generation",
+    "instrumentation",
+    "class loading",
+    "Byte Buddy",
+    "cglib"
+  ]
+}

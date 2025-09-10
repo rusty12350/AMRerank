@@ -1,0 +1,17 @@
+{
+  "library_name": "asm:asm",
+  "core_problem_solved": "To provide a small, fast, and low-level Java bytecode manipulation and analysis framework.",
+  "key_features": [
+    "A visitor-based API for reading, writing, and transforming compiled Java class files (.class)",
+    "Direct access to bytecode instructions for granular control"
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the foundational ASM bytecode manipulation library, used in the early 2000s before modern groupId naming conventions were widely adopted.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The ASM project officially moved to a more standard groupId to follow modern conventions. The direct modern successor to this artifact is **`org.ow2.asm:asm`**. All new projects should use the `org.ow2.asm` coordinate.",
+  "keywords_for_analysis": [
+    "bytecode",
+    "ASM",
+    "instrumentation",
+    "legacy",
+    "Maven coordinates"
+  ]
+}

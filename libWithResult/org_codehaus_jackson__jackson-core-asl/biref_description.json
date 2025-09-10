@@ -1,0 +1,18 @@
+{
+  "library_name": "org.codehaus.jackson:jackson-core-asl",
+  "core_problem_solved": "To provide the low-level, streaming API for parsing (reading) and generating (writing) JSON, serving as the foundation for the Jackson 1.x series.",
+  "key_features": [
+    "The original `JsonParser` and `JsonGenerator` streaming APIs for Jackson 1.x."
+  ],
+  "era_and_niche": "The legacy core module for the Jackson 1.x series, hosted at the now-defunct Codehaus repository. This was the foundational piece of the original Jackson library.",
+  "reason_for_obsolescence": "This artifact is **obsolete**. The entire Jackson project moved from Codehaus to the FasterXML organization and was rewritten as Jackson 2.x. The direct modern successor is **`com.fasterxml.jackson.core:jackson-core`**.",
+  "keywords_for_analysis": [
+    "Jackson",
+    "JSON",
+    "parser",
+    "legacy",
+    "obsolete",
+    "Codehaus",
+    "FasterXML"
+  ]
+}

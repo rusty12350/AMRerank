@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.cassandra:cassandra-all",
+  "core_problem_solved": "To provide the entire Apache Cassandra database server, including all of its dependencies, in a single, monolithic JAR file. This is intended for embedding Cassandra within another Java application or for certain types of integration testing.",
+  "key_features": [
+    "A fully embedded Cassandra database node",
+    "Includes the core database engine, storage management, and networking layers",
+    "Bundles all required third-party libraries (shaded or repackaged)"
+  ],
+  "era_and_niche": "A specialized artifact for embedding a full Cassandra node. It's not a client driver but the server itself. Its use case is niche, typically for complex integration tests or specialized applications that need to manage their own Cassandra instance.",
+  "reason_for_obsolescence": "The use of this artifact is **officially discouraged and considered bad practice** for most scenarios, especially production. Running an embedded database is complex and brittle. The modern approach for testing is to use **Testcontainers**, which runs Cassandra in a lightweight Docker container, providing much better isolation and a more realistic testing environment. For connecting to Cassandra, one should use a dedicated client driver like `com.datastax.cassandra:cassandra-driver-core`.",
+  "keywords_for_analysis": [
+    "Cassandra",
+    "embedded database",
+    "integration test",
+    "uber-jar",
+    "Testcontainers",
+    "database driver"
+  ]
+}

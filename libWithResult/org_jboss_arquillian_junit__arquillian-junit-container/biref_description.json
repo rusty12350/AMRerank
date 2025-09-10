@@ -1,0 +1,20 @@
+{
+  "library_name": "org.jboss.arquillian.junit:arquillian-junit-container",
+  "core_problem_solved": "To provide a test runner that integrates the Arquillian container-based testing model with the JUnit 4/5 testing framework, allowing developers to execute true integration tests inside a running container (e.g., an application server like WildFly).",
+  "key_features": [
+    "A JUnit test runner for the Arquillian framework",
+    "Manages the lifecycle of test deployments to a target container",
+    "Enables injection of real application components (like CDI beans) directly into test classes"
+  ],
+  "era_and_niche": "A core component of the Arquillian testing ecosystem, essential for any project wishing to perform in-container integration testing for Jakarta EE or Spring applications using JUnit.",
+  "reason_for_obsolescence": "The library is **not obsolete** but exists in a changing testing landscape. Its primary competitor for a wide range of integration test cases is now the **Testcontainers** pattern, which uses Docker for managing external dependencies. Within its own ecosystem, it is the direct alternative to **`org.jboss.arquillian.testng:arquillian-testng-container`**.",
+  "keywords_for_analysis": [
+    "testing",
+    "integration test",
+    "Arquillian",
+    "JUnit",
+    "CDI",
+    "Jakarta EE",
+    "Testcontainers"
+  ]
+}

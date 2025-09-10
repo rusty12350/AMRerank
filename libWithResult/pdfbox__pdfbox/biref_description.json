@@ -1,0 +1,17 @@
+{
+  "library_name": "pdfbox:pdfbox",
+  "core_problem_solved": "To provide a pure Java library for creating, manipulating, and extracting content from PDF documents.",
+  "key_features": [
+    "PDF Creation, Manipulation (merging/splitting), Form Filling, and Content Extraction."
+  ],
+  "era_and_niche": "The legacy Maven coordinate for the Apache PDFBox project, a leading open-source Java library for working with PDFs.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The project became a top-level Apache project and moved to a new, official groupId. The modern and actively maintained successor is **`org.apache.pdfbox:pdfbox`**. All new projects should use the `org.apache` coordinate.",
+  "keywords_for_analysis": [
+    "PDF",
+    "PDF generation",
+    "legacy",
+
+    "Maven coordinates",
+    "iText"
+  ]
+}

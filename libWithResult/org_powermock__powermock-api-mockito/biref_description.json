@@ -1,0 +1,20 @@
+{
+  "library_name": "org.powermock:powermock-api-mockito",
+  "core_problem_solved": "To extend the Mockito mocking framework with the capability to mock normally 'unmockable' constructs like static methods, final classes, private methods, and constructors, through the use of bytecode manipulation.",
+  "key_features": [
+    "API for mocking static methods (`mockStatic`)",
+    "Verifying static method calls",
+    "Suppressing constructors and static initializers to isolate classes under test"
+  ],
+  "era_and_niche": "A powerful and once-popular extension for Mockito, used for testing difficult, legacy, or poorly designed code that was otherwise considered untestable with standard mocking tools.",
+  "reason_for_obsolescence": "This is a **legacy library and its use is discouraged** in modern testing practices. Its reliance on invasive bytecode manipulation is often a sign of poor application design that should be refactored. Furthermore, PowerMock has major compatibility issues with JUnit 5 and newer Java versions (11+). The modern approach is to refactor code to be testable with standard **Mockito** alone.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "static method",
+    "PowerMock",
+    "Mockito",
+    "legacy",
+    "bytecode instrumentation"
+  ]
+}

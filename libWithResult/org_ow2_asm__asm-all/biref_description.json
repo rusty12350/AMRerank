@@ -1,0 +1,16 @@
+{
+  "library_name": "org.ow2.asm:asm-all",
+  "core_problem_solved": "To provide all modules of the ASM bytecode manipulation framework (core, commons, tree, etc.) in a single, convenient 'uber-jar'.",
+  "key_features": [
+    "Bundled the core ASM API, the commons utilities, the tree API, and other modules into a single JAR file for easy dependency management."
+  ],
+  "era_and_niche": "A convenience artifact for older versions of ASM, used to simplify the inclusion of the entire framework without needing to manage individual module dependencies.",
+  "reason_for_obsolescence": "This artifact is **obsolete and deprecated**. The modern approach is to depend on the specific, modular ASM artifacts as needed (e.g., `org.ow2.asm:asm`, `org.ow2.asm:asm-commons`), allowing for better dependency control, smaller application footprints, and avoidance of classpath conflicts.",
+  "keywords_for_analysis": [
+    "bytecode",
+    "ASM",
+    "uber-jar",
+    "legacy",
+    "dependency management"
+  ]
+}

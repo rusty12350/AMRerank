@@ -1,0 +1,21 @@
+{
+  "library_name": "org.apache.lucene:lucene-core",
+  "core_problem_solved": "To provide a high-performance, full-featured, and cross-platform text search engine library, enabling applications to perform powerful indexing and searching capabilities without needing a separate server.",
+  "key_features": [
+    "High-performance indexing and searching of text data",
+    "Ranked searching, returning the most relevant results first",
+    "Numerous query types (phrase, wildcard, fuzzy, boolean, etc.)",
+    "Pluggable text analysis and tokenization"
+  ],
+  "era_and_niche": "The foundational and industry-standard open-source search library, written in Java. It is the underlying engine for virtually all major open-source search platforms, most notably **Apache Solr** and **Elasticsearch**.",
+  "reason_for_obsolescence": "This library is **not obsolete**; it is a state-of-the-art core technology. However, most developers **do not use Lucene directly**. The common and recommended approach is to use a full-featured search server like **Elasticsearch** or **Solr**, which use Lucene internally and expose its functionality via a much higher-level, distributed REST API.",
+  "keywords_for_analysis": [
+    "search",
+    "full-text search",
+    "indexing",
+    "Lucene",
+    "Elasticsearch",
+    "Solr",
+    "information retrieval"
+  ]
+}

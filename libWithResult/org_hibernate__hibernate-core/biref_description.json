@@ -1,0 +1,20 @@
+{
+  "library_name": "org.hibernate:hibernate-core",
+  "core_problem_solved": "To provide a powerful Object-Relational Mapping (ORM) solution for Java, bridging the gap between the object-oriented domain model of an application and a relational database.",
+  "key_features": [
+    "Implements the Jakarta Persistence API (JPA) standard",
+    "Provides its own powerful native Session API for finer-grained control",
+    "Features a powerful query language (HQL - Hibernate Query Language)",
+    "Includes advanced features like caching (first and second level), lazy loading, and fetching strategies"
+  ],
+  "era_and_niche": "The core artifact for Hibernate ORM (up to version 5.x), the de facto industry standard for ORM and data persistence in the Java enterprise ecosystem for many years.",
+  "reason_for_obsolescence": "While the Hibernate technology is a modern standard, this specific Maven coordinate is for an **older generation** of the library. With the move to Jakarta EE and the release of version 6+, the project's official groupId changed. The direct and actively maintained successor is **`org.hibernate.orm:hibernate-core`**.",
+  "keywords_for_analysis": [
+    "Hibernate",
+    "ORM",
+    "JPA",
+    "persistence",
+    "database",
+    "Jakarta EE"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "library_name": "org.apache.mahout:mahout-core",
+  "core_problem_solved": "To provide a distributed linear algebra and machine learning framework, originally designed to run on top of Apache Hadoop using the MapReduce paradigm.",
+  "key_features": [
+    "Distributed implementations of machine learning algorithms (clustering, classification, collaborative filtering)",
+    "A distributed linear algebra library",
+    "Originally, a MapReduce-based programming model for scalability"
+  ],
+  "era_and_niche": "A pioneering project in the big data machine learning space, Mahout was one of the first major ML libraries for the Hadoop ecosystem in the late 2000s and early 2010s.",
+  "reason_for_obsolescence": "The project is **largely obsolete in its original form**. The MapReduce paradigm was almost entirely superseded by Apache Spark, which is faster and easier to use. The Mahout project itself pivoted away from MapReduce to a new engine called 'Samsara'. However, the broader big data ML community has largely consolidated around **Apache Spark's MLlib**. For modern, distributed machine learning on the JVM, Spark MLlib is the de facto standard.",
+  "keywords_for_analysis": [
+    "machine learning",
+    "big data",
+    "Hadoop",
+    "MapReduce",
+    "Apache Spark",
+    "MLlib",
+    "Samsara"
+  ]
+}

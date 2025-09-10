@@ -1,0 +1,19 @@
+{
+  "library_name": "ch.qos.logback:logback-core",
+  "core_problem_solved": "To provide the core, foundational components and infrastructure for the Logback logging framework. It lays the groundwork upon which other modules, like `logback-classic` (which implements the SLF4J API), are built.",
+  "key_features": [
+    "Defines the core logging concepts and interfaces like `Appender`, `Layout`, and `Encoder`",
+    "Contains the engine for processing logging events and managing the logging context",
+    "Handles configuration file parsing and setup"
+  ],
+  "era_and_niche": "A fundamental and required core module for the Logback framework, which is one of the leading logging solutions in the Java ecosystem.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is an actively maintained, essential part of Logback. It is almost always used as a transitive dependency brought in by **`ch.qos.logback:logback-classic`** rather than being declared as a direct dependency by developers.",
+  "keywords_for_analysis": [
+    "logging",
+    "SLF4J",
+    "Logback",
+    "Log4j2",
+    "core",
+    "framework"
+  ]
+}

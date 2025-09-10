@@ -1,0 +1,20 @@
+{
+  "library_name": "jwebunit:jwebunit",
+  "core_problem_solved": "To simplify the testing of web applications in Java by providing a high-level, unified API that acts as a wrapper around lower-level browser automation engines like HtmlUnit (headless) and Selenium.",
+  "key_features": [
+    "A high-level, fluent API for navigating web pages (e.g., `beginAt`, `gotoPage`)",
+    "Simple methods for interacting with form elements (e.g., `setTextField`, `submit`)",
+    "Built-in assertions for verifying page content (e.g., `assertTitleEquals`, `assertTextInTable`)"
+  ],
+  "era_and_niche": "A popular choice for server-side web application testing in the 2000s, simplifying the process of writing integration and acceptance tests by abstracting away the complexities of the underlying test engines.",
+  "reason_for_obsolescence": "The project is **largely inactive and considered obsolete**. The web testing landscape has evolved dramatically. Modern approaches favor using the Selenium WebDriver API directly (often with fluent wrappers like Selenide) for browser automation, or dedicated API testing libraries like REST Assured. The high-level abstraction provided by JWebUnit is no longer a common or recommended approach.",
+  "keywords_for_analysis": [
+    "web testing",
+    "Selenium",
+    "HtmlUnit",
+    "integration test",
+    "acceptance testing",
+    "UI automation",
+    "Selenide"
+  ]
+}

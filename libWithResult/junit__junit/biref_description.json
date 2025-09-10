@@ -1,0 +1,22 @@
+{
+  "library_name": "junit:junit",
+  "core_problem_solved": "To provide a simple and standardized framework for writing and running repeatable, automated tests for Java code, serving as the foundation for Test-Driven Development (TDD).",
+  "key_features": [
+    "An annotation-based model for defining tests (`@Test`) and lifecycle methods (`@Before`, `@After`)",
+    "A test runner for executing tests and collecting results",
+    "A set of assertion methods (`Assert.assertEquals`, etc.) for verifying outcomes"
+  ],
+  "era_and_niche": "The de facto standard unit testing framework for Java for over a decade. JUnit 4, represented by this coordinate, revolutionized Java testing by introducing annotations, replacing the older inheritance-based model of JUnit 3.",
+  "reason_for_obsolescence": "This artifact represents JUnit 4, which is now a **legacy framework**. It has been officially superseded by the completely redesigned **JUnit 5 (Jupiter)**. The modern coordinates are `org.junit.jupiter:junit-jupiter-api` (for writing tests) and `org.junit.jupiter:junit-jupiter-engine` (for running them). All new projects should use JUnit 5 for its modularity and powerful new features.",
+  "keywords_for_analysis": [
+    "testing",
+    "unit test",
+    "JUnit",
+    "JUnit 4",
+    "TDD",
+    "assertion",
+    "legacy",
+    "JUnit 5",
+    "TestNG"
+  ]
+}

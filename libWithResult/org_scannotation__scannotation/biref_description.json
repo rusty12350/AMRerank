@@ -1,0 +1,19 @@
+{
+  "library_name": "org.scannotation:scannotation",
+  "core_problem_solved": "To provide a lightweight and focused library for scanning a Java classpath (JARs and directories) to discover classes that are marked with specific annotations.",
+  "key_features": [
+    "A simple API to define which archives and directories to scan",
+    "A mechanism to specify which annotations to search for",
+    "Build-time scanning and index generation to speed up runtime discovery"
+  ],
+  "era_and_niche": "A small, specialized library from the JBoss ecosystem, used in the late 2000s for annotation-based class discovery, particularly in the context of Java EE application servers and RESTeasy.",
+  "reason_for_obsolescence": "The library is **obsolete** and no longer maintained. Its functionality has been completely superseded by more powerful, faster, and actively maintained classpath scanning libraries like **`org.reflections:reflections`** and especially the modern standard, **`io.github.classgraph:classgraph`**.",
+  "keywords_for_analysis": [
+    "classpath scanning",
+    "reflection",
+    "annotations",
+    "legacy",
+    "classgraph",
+    "reflections"
+  ]
+}

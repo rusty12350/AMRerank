@@ -1,0 +1,19 @@
+{
+  "library_name": "commons-logging:commons-logging",
+  "core_problem_solved": "To provide a logging abstraction layer (facade) that decouples an application's logging statements from the underlying logging implementation, allowing the final logging framework to be chosen at deployment time.",
+  "key_features": [
+    "A generic `Log` interface for logging messages",
+    "A runtime discovery mechanism (`LogFactory`) to find and delegate to a concrete logging library like Log4j or `java.util.logging`"
+  ],
+  "era_and_niche": "One of the first widely adopted logging facades in the Java ecosystem, used extensively in the early-to-mid 2000s.",
+  "reason_for_obsolescence": "This library is **obsolete** and its use is **strongly discouraged**. Its runtime discovery mechanism was notoriously unreliable and caused complex classloader problems, famously known as 'JCL Hell'. The modern, de facto industry standard for a logging facade is **SLF4J** (`org.slf4j:slf4j-api`), which uses a more robust static binding mechanism.",
+  "keywords_for_analysis": [
+    "logging",
+    "facade",
+    "JCL",
+    "legacy",
+    "obsolete",
+    "SLF4J",
+    "Log4j"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "library_name": "antlr:antlr",
+  "core_problem_solved": "To build language recognizers, parsers, compilers, and interpreters from a formal grammar definition, automating the complex and error-prone process of writing parsers by hand.",
+  "key_features": [
+    "Powerful parser generation from formal grammar files (.g4)",
+    "Advanced adaptive LL(*) parsing algorithm capable of handling complex grammars",
+    "Automatic parse tree and Abstract Syntax Tree (AST) construction",
+    "Visitor and Listener patterns for walking the parse tree to execute logic"
+  ],
+  "era_and_niche": "A foundational tool in the field of compilers and language design for decades, widely used in academia and industry for creating programming languages, data formats, and query engines. ANTLR v4 (released in the 2010s) is its modern and most powerful iteration.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained as a leading tool in its category. Migration away from it is not due to obsolescence but is an architectural choice, typically when parsing needs are simple enough for basic methods (like regex) or a project has a historical preference for another parser generator like JavaCC.",
+  "keywords_for_analysis": [
+    "parser",
+    "compiler",
+    "grammar",
+    "AST",
+    "language recognition",
+    "lexer",
+    "parser generator",
+    "EBNF"
+  ]
+}

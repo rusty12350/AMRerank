@@ -1,0 +1,19 @@
+{
+  "library_name": "ru.yandex.qatools.properties:properties-loader",
+  "core_problem_solved": "To provide a simple, annotation-based mechanism for loading configuration values from `.properties` files and binding them to fields in a Java object, reducing boilerplate code.",
+  "key_features": [
+    "Annotation-driven property binding (`@Property`, `@Resource`)",
+    "Support for property files on the classpath",
+    "Automatic type conversion for common data types"
+  ],
+  "era_and_niche": "A utility library from the early 2010s, created by the Yandex QA team to simplify configuration management in Java applications and especially in automated tests.",
+  "reason_for_obsolescence": "This library is **obsolete** and is no longer actively maintained. The problem of configuration management in Java is now solved by more powerful and comprehensive libraries like **Owner**, or more commonly, by the built-in, feature-rich configuration systems of modern application frameworks like **Spring Boot**, **Quarkus**, and **Micronaut**.",
+  "keywords_for_analysis": [
+    "configuration",
+    "properties",
+    "annotations",
+    "legacy",
+    "Owner",
+    "Spring Boot"
+  ]
+}

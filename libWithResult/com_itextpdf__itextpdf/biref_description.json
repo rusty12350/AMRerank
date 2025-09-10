@@ -1,0 +1,19 @@
+{
+  "library_name": "com.itextpdf:itextpdf",
+  "core_problem_solved": "To provide a powerful, modern, and feature-rich library for creating and manipulating PDF documents in Java.",
+  "key_features": [
+    "All features of the original iText, plus support for modern PDF standards",
+    "Improved security features, better performance, and a redesigned API (in the latest 7.x series)",
+    "Advanced add-ons for features like PDF redaction, OCR, and HTML to PDF conversion"
+  ],
+  "era_and_niche": "The official, commercially-backed version of the iText PDF library. It is a leading commercial and open-source (AGPL) product for enterprise-grade PDF solutions. This coordinate refers to the 5.x series; the current generation is the modular iText 7 (e.g., `com.itextpdf:kernel`).",
+  "reason_for_obsolescence": "This library is **not obsolete** but is licensed under the **AGPL**, which has significant viral open-source implications for commercial use, often requiring the purchase of a commercial license. It is the official successor to `com.lowagie:itext`. Its primary open-source (Apache licensed) competitor is **Apache PDFBox**, and the community-driven, permissively-licensed alternative is **OpenPDF**.",
+  "keywords_for_analysis": [
+    "PDF",
+    "iText",
+    "AGPL",
+    "OpenPDF",
+    "PDFBox",
+    "document generation"
+  ]
+}

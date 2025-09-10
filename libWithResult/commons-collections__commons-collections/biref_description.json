@@ -1,0 +1,21 @@
+{
+  "library_name": "commons-collections:commons-collections",
+  "core_problem_solved": "To provide a rich set of extensions to the standard Java Collections Framework, offering new collection types, implementations, and utility methods that were not available in the JDK.",
+  "key_features": [
+    "New collection interfaces like `BidiMap` (bidirectional map) and `Bag` (multiset)",
+    "Powerful collection utility classes (`CollectionUtils`, `ListUtils`)",
+    "Decorators for transforming collections (e.g., making them unmodifiable or thread-safe)"
+  ],
+  "era_and_niche": "A foundational and nearly ubiquitous utility library in the Java ecosystem for many years (2000s), providing essential functionality for everyday programming tasks.",
+  "reason_for_obsolescence": "This is a **legacy library whose use is strongly discouraged**, for two critical reasons. First, it contains well-known **critical remote code execution (RCE) vulnerabilities** related to Java deserialization. Second, its official successor is **`org.apache.commons:commons-collections4`**. However, the modern, feature-rich, and generally preferred alternative for collections utilities is **`com.google.guava:guava`**.",
+  "keywords_for_analysis": [
+    "collections",
+    "utility library",
+    "vulnerability",
+    "deserialization",
+    "RCE",
+    "legacy",
+    "Apache Commons",
+    "Guava"
+  ]
+}

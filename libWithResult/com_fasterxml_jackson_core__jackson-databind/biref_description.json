@@ -1,0 +1,22 @@
+{
+  "library_name": "com.fasterxml.jackson.core:jackson-databind",
+  "core_problem_solved": "To provide powerful and convenient high-level data binding (object mapping) functionality for processing JSON in Java, allowing for seamless conversion between Java Objects (POJOs) and their JSON string representations.",
+  "key_features": [
+    "Automatic serialization (Java objects to JSON) and deserialization (JSON to Java objects)",
+    "Support for complex object graphs, generics, and polymorphism",
+    "A highly customizable mapping process through a rich set of annotations (from `jackson-annotations`)",
+    "A tree model (`JsonNode`) for manual JSON traversal and manipulation"
+  ],
+  "era_and_niche": "The modern, de facto industry standard for JSON processing in the Java ecosystem. It is the main, high-level library developers interact with and is the default library used in major frameworks like Spring Boot.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the leading library in its category, sitting on top of `jackson-core` and `jackson-annotations`. Its primary competitor is Google's **`com.google.code.gson:gson`**, though Jackson is generally considered more feature-rich and is more widely used in enterprise frameworks.",
+  "keywords_for_analysis": [
+    "Jackson",
+    "JSON",
+    "databind",
+    "serialization",
+    "deserialization",
+    "POJO",
+    "object mapping",
+    "Gson"
+  ]
+}

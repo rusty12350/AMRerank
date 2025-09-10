@@ -1,0 +1,16 @@
+{
+  "library_name": "org.codehaus.groovy:groovy-all",
+  "core_problem_solved": "To provide the Groovy language and all of its official modules (e.g., for JSON, XML, SQL, Swing) in a single, convenient 'uber-jar' to simplify dependency management.",
+  "key_features": [
+    "Bundles the Groovy compiler, runtime, and all standard extension modules into a single, large JAR file."
+  ],
+  "era_and_niche": "A convenience artifact for the Apache Groovy project, historically popular for its ease of setup in simple scripts or standalone applications where managing multiple dependencies was cumbersome.",
+  "reason_for_obsolescence": "The use of this artifact is **officially discouraged** by the Groovy project. It leads to bloated applications and a high risk of classpath conflicts ('JAR hell'). The modern, recommended approach is to depend on the core modular artifact (`org.codehaus.groovy:groovy`) and add specific modules (e.g., `groovy-json`) as needed.",
+  "keywords_for_analysis": [
+    "Groovy",
+    "uber-jar",
+    "monolithic",
+    "modularization",
+    "dependency management"
+  ]
+}

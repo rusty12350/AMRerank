@@ -1,0 +1,18 @@
+{
+  "library_name": "org.seleniumhq.selenium:selenium-api",
+  "core_problem_solved": "To define the language-agnostic interfaces and contracts for the Selenium WebDriver API, providing a stable, standard set of commands and concepts for browser automation.",
+  "key_features": [
+    "Defines the core `WebDriver`, `WebElement`, `By`, and `Capabilities` interfaces",
+    "Provides the official set of commands for browser interaction (e.g., click, sendKeys)",
+    "Acts as the foundational module for all other Selenium language bindings"
+  ],
+  "era_and_niche": "The foundational API module for the entire Selenium project, which is the industry standard for web browser automation and testing.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is a core, actively maintained component of the Selenium framework. It is not typically used as a direct dependency by end-users, but is brought in transitively by language-specific implementation libraries like `selenium-java`.",
+  "keywords_for_analysis": [
+    "Selenium",
+    "WebDriver",
+    "browser automation",
+    "testing",
+    "API"
+  ]
+}

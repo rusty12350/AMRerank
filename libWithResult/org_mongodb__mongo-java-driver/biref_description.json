@@ -1,0 +1,19 @@
+{
+  "library_name": "org.mongodb:mongo-java-driver",
+  "core_problem_solved": "To provide the official, low-level Java driver for connecting to and interacting with a MongoDB database server, handling all aspects of the MongoDB wire protocol.",
+  "key_features": [
+    "Implementation of the MongoDB wire protocol",
+    "APIs for CRUD (Create, Read, Update, Delete) operations",
+    "Connection management to a MongoDB replica set or sharded cluster"
+  ],
+  "era_and_niche": "The standard Java driver for MongoDB for many years, used by all Java applications connecting to the database before the major rewrite in the 3.x driver series.",
+  "reason_for_obsolescence": "This artifact is the **legacy driver** and is now **obsolete**. It was completely replaced by the modern, unified MongoDB 3.x+ Java Driver. The direct modern successor for most applications is **`org.mongodb:mongodb-driver-sync`** (for synchronous operations), which is part of the new modular framework built around `mongodb-driver-core`.",
+  "keywords_for_analysis": [
+    "MongoDB",
+    "NoSQL",
+    "database driver",
+    "BSON",
+    "legacy",
+    "Spring Data"
+  ]
+}

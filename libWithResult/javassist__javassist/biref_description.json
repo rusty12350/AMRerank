@@ -1,0 +1,19 @@
+{
+  "library_name": "javassist:javassist",
+  "core_problem_solved": "To provide a high-level API for manipulating Java bytecode, enabling developers to modify existing classes or create new classes at runtime.",
+  "key_features": [
+    "Source-level and bytecode-level APIs for class modification",
+    "Dynamic class creation and method instrumentation",
+    "A key enabler for Aspect-Oriented Programming (AOP)"
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the Javassist bytecode manipulation library.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The project moved several times over its history, with its modern and actively maintained home being **`org.javassist:javassist`**. The library itself, while not obsolete, competes with the more modern **Byte Buddy** library for new development.",
+  "keywords_for_analysis": [
+    "bytecode",
+    "AOP",
+    "proxy",
+    "legacy",
+    "Byte Buddy",
+    "Maven coordinates"
+  ]
+}

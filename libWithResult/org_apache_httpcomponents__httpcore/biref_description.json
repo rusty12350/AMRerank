@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.httpcomponents:httpcore",
+  "core_problem_solved": "To provide a set of low-level, foundational components for the HTTP and HTTPS protocols, serving as the core I/O engine for the Apache HttpComponents library.",
+  "key_features": [
+    "Abstractions for HTTP messages (e.g., `HttpRequest`, `HttpResponse`)",
+    "A low-level I/O processing model for handling HTTP transport",
+    "Foundational classes for managing HTTP connections and pipelines"
+  ],
+  "era_and_niche": "A core, low-level module for the modern Apache HttpComponents project. It is a foundational library, not typically used directly by application developers, but serves as the base for `httpclient`.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained as the core of the HttpComponents project. It is almost always used as a transitive dependency brought in by the higher-level and user-facing **`org.apache.httpcomponents:httpclient`** library. You would rarely declare a direct dependency on `httpcore`.",
+  "keywords_for_analysis": [
+    "HTTP",
+    "networking",
+    "protocol",
+    "Apache HttpComponents",
+    "low-level",
+    "core"
+  ]
+}

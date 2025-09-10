@@ -1,0 +1,21 @@
+{
+  "library_name": "org.apache.deltaspike.core:deltaspike-core-api",
+  "core_problem_solved": "To provide a collection of portable extensions for Contexts and Dependency Injection (CDI) that offer useful features not included in the standard CDI specification, effectively acting as a utility belt for CDI-based applications.",
+  "key_features": [
+    "Advanced dependency injection and lifecycle management features",
+    "A type-safe project stage mechanism (e.g., Development, Test, Production)",
+    "Enhanced configuration injection from various sources",
+    "Security and exception handling extensions for CDI beans"
+  ],
+  "era_and_niche": "An important project in the Java EE / Jakarta EE ecosystem, providing a standard set of extensions for CDI 1.0 and later. It was particularly influential before many of its concepts were standardized or made easier in later CDI specifications or by specific frameworks.",
+  "reason_for_obsolescence": "While not strictly obsolete, its relevance has diminished. Modern CDI versions (2.0+) and frameworks built on top of it, like **Quarkus** and **Micronaut**, have incorporated many of the features that DeltaSpike originally provided. For new projects using these modern frameworks, DeltaSpike is often unnecessary. It remains relevant for applications built on older Java EE / CDI standards.",
+  "keywords_for_analysis": [
+    "CDI",
+    "Java EE",
+    "Jakarta EE",
+    "dependency injection",
+    "Quarkus",
+    "Micronaut",
+    "JSR-299"
+  ]
+}

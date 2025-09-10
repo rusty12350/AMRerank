@@ -1,0 +1,21 @@
+{
+  "library_name": "commons-cli:commons-cli",
+  "core_problem_solved": "To provide a standardized API for parsing command-line options passed to a Java application, as part of the Apache Commons suite of reusable components.",
+  "key_features": [
+    "A programmatic API for defining command-line options (flags)",
+    "Parsing the `String[] args` array from a `main` method",
+    "Querying for the presence of options and their arguments",
+    "Automatic generation of help/usage text"
+  ],
+  "era_and_niche": "One of the original, standard libraries for command-line parsing from the Apache Commons project, widely used in the 2000s.",
+  "reason_for_obsolescence": "This is a **legacy library**. Its programmatic, non-annotated API is considered verbose and cumbersome compared to modern alternatives. It has been almost entirely superseded in features, ease of use, and popularity by annotation-based libraries, with **`info.picocli:picocli`** being the current de facto industry standard for Java CLI applications.",
+  "keywords_for_analysis": [
+    "CLI",
+    "command-line",
+    "argument parsing",
+    "legacy",
+    "Apache Commons",
+    "picocli",
+    "JCommander"
+  ]
+}

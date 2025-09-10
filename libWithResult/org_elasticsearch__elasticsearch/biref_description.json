@@ -1,0 +1,20 @@
+{
+  "library_name": "org.elasticsearch:elasticsearch",
+  "core_problem_solved": "To provide the complete Elasticsearch server as a single library, enabling it to be embedded directly within another Java application, primarily for integration testing purposes.",
+  "key_features": [
+    "An embedded, fully functional Elasticsearch node",
+    "Includes its distributed coordination, indexing, and search capabilities",
+    "Packages the Lucene search library and all other server-side dependencies"
+  ],
+  "era_and_niche": "A server artifact for the leading distributed search and analytics engine. Embedding the server was a common pattern for integration tests in the past, before the rise of containerization.",
+  "reason_for_obsolescence": "While Elasticsearch itself is a leading technology, this monolithic server artifact and the practice of embedding it are now **strongly discouraged**. The modern, standard approach for testing is using **Testcontainers**, which runs a real Elasticsearch instance in a Docker container. For applications to connect to a cluster, they should use a dedicated client library like **`org.elasticsearch.client:elasticsearch-java`**.",
+  "keywords_for_analysis": [
+    "Elasticsearch",
+    "search engine",
+    "embedded database",
+    "integration test",
+    "Testcontainers",
+    "Lucene",
+    "REST client"
+  ]
+}

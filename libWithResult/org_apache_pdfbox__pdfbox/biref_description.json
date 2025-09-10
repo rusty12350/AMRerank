@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.pdfbox:pdfbox",
+  "core_problem_solved": "To provide a pure Java library for creating, manipulating, and extracting content from PDF documents.",
+  "key_features": [
+    "PDF Creation: Creating new PDF documents from scratch",
+    "PDF Manipulation: Merging or splitting existing documents, filling in forms",
+    "Content Extraction: Extracting Unicode text from PDF files",
+    "Integration with the Java Printing API"
+  ],
+  "era_and_niche": "A leading open-source Java library for working with PDF files. It competes with another popular library, iText, but is often favored for its more permissive Apache 2.0 license.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is an actively maintained, popular, and powerful Apache top-level project. It is a standard choice for any Java application that needs to interact with PDF documents programmatically. Migration typically involves upgrading to a newer version of PDFBox itself.",
+  "keywords_for_analysis": [
+    "PDF",
+    "PDF generation",
+    "content extraction",
+    "document processing",
+    "iText"
+  ]
+}

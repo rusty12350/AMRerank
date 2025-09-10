@@ -1,0 +1,22 @@
+{
+  "library_name": "com.google.code.findbugs:findbugs",
+  "core_problem_solved": "To perform static analysis on Java bytecode to identify a wide range of common programming errors, potential bugs, and bad practices, improving code quality and reliability before runtime.",
+  "key_features": [
+    "Static analysis of compiled Java bytecode",
+    "Detection of hundreds of different bug patterns (e.g., null pointer issues, resource leaks, concurrency problems)",
+    "Integration with build tools (Maven, Ant, Gradle) and IDEs (Eclipse, IntelliJ)",
+    "Extensible through custom bug detector plugins"
+  ],
+  "era_and_niche": "A highly influential and widely adopted static analysis tool in the Java ecosystem throughout the 2000s and early 2010s. It was a standard part of the CI/CD pipeline for many quality-conscious Java projects.",
+  "reason_for_obsolescence": "The FindBugs project itself is **officially defunct and no longer maintained**. Its official successor is the **SpotBugs** project, which is a community-led fork that continues the development, adds support for modern Java versions, and maintains the original's plugin ecosystem. Any migration from FindBugs should be directly to SpotBugs.",
+  "keywords_for_analysis": [
+    "static analysis",
+    "code quality",
+    "bug detection",
+    "bytecode",
+    "linter",
+    "SpotBugs",
+    "Checkstyle",
+    "PMD"
+  ]
+}

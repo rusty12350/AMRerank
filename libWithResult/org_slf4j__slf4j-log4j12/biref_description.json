@@ -1,0 +1,17 @@
+{
+  "library_name": "org.slf4j:slf4j-log4j12",
+  "core_problem_solved": "To act as a binding that connects the SLF4J API to the legacy Log4j 1.2 implementation, allowing applications that use the SLF4J API to use Log4j 1.x as their backend logging engine.",
+  "key_features": [
+    "An implementation of the SLF4J `ILoggerFactory` that delegates logging calls to a Log4j 1.x `Logger` instance."
+  ],
+  "era_and_niche": "For many years, this was one of the most common SLF4J bindings, pairing the modern SLF4J facade with the then-dominant Log4j 1.x implementation.",
+  "reason_for_obsolescence": "This library is **legacy and its use is strongly discouraged**. Its purpose is to bind to Log4j 1.x, which is itself **obsolete and contains known security vulnerabilities**. Modern applications must use a binding for a modern logging implementation, such as **`ch.qos.logback:logback-classic`** (for Logback) or **`org.apache.logging.log4j:log4j-slf4j-impl`** (for Log4j 2).",
+  "keywords_for_analysis": [
+    "SLF4J",
+    "Log4j",
+    "logging",
+    "binding",
+    "legacy",
+    "vulnerability"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "library_name": "org.easytesting:fest-assert",
+  "core_problem_solved": "To provide a 'fluent' assertion library for Java, enabling more readable, intuitive, and expressive unit tests compared to standard JUnit assertions.",
+  "key_features": [
+    "A fluent, chainable API for writing assertions (e.g., `assertThat(value).isNotNull().isEqualTo(expected)`)",
+    "Rich, type-specific assertions for collections, strings, numbers, etc."
+  ],
+  "era_and_niche": "A pioneering and highly influential fluent assertion library in the late 2000s and early 2010s. It was the direct precursor to modern assertion libraries.",
+  "reason_for_obsolescence": "This library is **obsolete** and is no longer maintained. Its creator, Joel Costigliola, went on to develop its direct and official successor, **AssertJ** (`org.assertj:assertj-core`), which is a complete rewrite with a more powerful and comprehensive API. AssertJ is the current industry standard for fluent assertions.",
+  "keywords_for_analysis": [
+    "testing",
+    "assertion",
+    "fluent assertions",
+    "TDD",
+    "legacy",
+    "AssertJ",
+    "JUnit"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "library_name": "org.apache.logging.log4j:log4j-api",
+  "core_problem_solved": "To provide a stable, public API for the Log4j 2 logging framework, allowing application code to be decoupled from the underlying logging implementation.",
+  "key_features": [
+    "Defines the core `Logger` and `LogManager` interfaces for application code",
+    "Support for lambda expressions for lazy logging, improving performance",
+    "Advanced message parameterization (e.g., `logger.info(\"User {} logged in\", username)`)",
+    "Provides the `Marker` interface for filtering log events"
+  ],
+  "era_and_niche": "The standard API for the modern Apache Log4j 2 framework, which is one of the two leading logging solutions in the Java ecosystem, alongside Logback.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is the actively maintained API for Log4j 2. Best practice is for applications and libraries to depend only on this API for their logging calls, and then provide a concrete implementation like `log4j-core` on the final application classpath.",
+  "keywords_for_analysis": [
+    "logging",
+    "Log4j2",
+    "API",
+    "facade",
+    "SLF4J",
+    "Logback"
+  ]
+}

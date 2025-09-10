@@ -1,0 +1,19 @@
+{
+  "library_name": "commons-httpclient:commons-httpclient",
+  "core_problem_solved": "To provide a comprehensive and feature-rich client library for making HTTP requests from Java, as a more powerful and user-friendly alternative to the basic `java.net.HttpURLConnection`.",
+  "key_features": [
+    "An object-oriented API for HTTP methods (GET, POST, etc.)",
+    "Connection management and connection pooling",
+    "Support for cookies, various authentication schemes, and request entities"
+  ],
+  "era_and_niche": "The de facto standard third-party HTTP client for Java throughout the 2000s, used extensively before a major architectural rewrite.",
+  "reason_for_obsolescence": "This library is **completely obsolete** and unmaintained. It was entirely rewritten from the ground up by the Apache HttpComponents project. Its direct and official successor is **`org.apache.httpcomponents:httpclient`**. For new projects on modern Java (11+), the native `java.net.http.HttpClient` is also a strong alternative.",
+  "keywords_for_analysis": [
+    "HTTP client",
+    "networking",
+    "Apache Commons",
+    "legacy",
+    "obsolete",
+    "Apache HttpComponents"
+  ]
+}

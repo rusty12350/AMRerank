@@ -1,0 +1,22 @@
+{
+  "library_name": "joda-time:joda-time",
+  "core_problem_solved": "To provide a high-quality, user-friendly, and comprehensive alternative to the notoriously flawed `java.util.Date` and `java.util.Calendar` classes in versions of Java prior to Java 8.",
+  "key_features": [
+    "Clear, immutable date-time classes (e.g., `DateTime`, `LocalDate`, `LocalTime`)",
+    "Robust and understandable handling of timezones and chronologies",
+    "Intuitive methods for date-time manipulation, formatting, and parsing",
+    "Concepts for representing durations, periods, and intervals"
+  ],
+  "era_and_niche": "The de facto standard date and time library for Java for nearly a decade before the release of Java 8. It was a near-mandatory dependency for any serious Java project that handled dates and times.",
+  "reason_for_obsolescence": "The library is **officially obsolete** and is now in maintenance mode. Its concepts and design were used as the direct basis for JSR-310, which became the official **`java.time` package** in Java 8. The library's own author explicitly recommends all users migrate to `java.time` on modern JDKs.",
+  "keywords_for_analysis": [
+    "date",
+    "time",
+    "JSR-310",
+    "java.time",
+    "immutable",
+    "timezone",
+    "Calendar",
+    "ThreeTen"
+  ]
+}

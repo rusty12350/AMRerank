@@ -1,0 +1,20 @@
+{
+  "library_name": "net.sourceforge.saxon:saxon",
+  "core_problem_solved": "To provide a complete, conformant, and high-performance implementation of modern XML processing standards, including XSLT 2.0/3.0, XQuery 3.0/3.1, and XPath 2.0/3.1.",
+  "key_features": [
+    "A leading XSLT 3.0 and XQuery 3.1 processor",
+    "A high-performance XPath engine supporting modern standards",
+    "Schema validation capabilities (XSD 1.1)"
+  ],
+  "era_and_niche": "A legacy Maven coordinate for the industry-standard Saxon XML processor. This coordinate, hosted on the older SourceForge domain, points to older versions of the library.",
+  "reason_for_obsolescence": "While the Saxon technology itself is state-of-the-art, this specific Maven coordinate is **legacy**. The project's modern and actively maintained artifacts are published under the `net.sf.saxon` groupId, with the primary open-source artifact being **`net.sf.saxon:saxon-he`** (Home Edition).",
+  "keywords_for_analysis": [
+    "XSLT",
+    "XQuery",
+    "XPath",
+    "XML",
+    "transformation",
+    "legacy",
+    "Saxon"
+  ]
+}

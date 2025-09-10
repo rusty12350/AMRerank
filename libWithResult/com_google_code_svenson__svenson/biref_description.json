@@ -1,0 +1,17 @@
+{
+  "library_name": "com.google.code.svenson:svenson",
+  "core_problem_solved": "To provide a simple and lightweight toolkit for parsing and generating JSON in Java.",
+  "key_features": [
+    "Basic JSON serialization and deserialization capabilities."
+  ],
+  "era_and_niche": "One of the many early, small JSON libraries for Java that emerged in the late 2000s, this one being hosted on the now-archived Google Code platform.",
+  "reason_for_obsolescence": "This library is **completely obsolete** and has been unmaintained for over a decade. It never gained significant traction and its functionality is trivial compared to the modern, feature-rich, and actively maintained industry standards: **Jackson** and **Gson**.",
+  "keywords_for_analysis": [
+    "JSON",
+    "parser",
+    "legacy",
+    "obsolete",
+    "Jackson",
+    "Gson"
+  ]
+}

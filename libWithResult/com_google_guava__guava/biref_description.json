@@ -1,0 +1,22 @@
+{
+  "library_name": "com.google.guava:guava",
+  "core_problem_solved": "To provide a set of core, high-quality utility libraries for Java that are heavily used within Google's own codebase, covering areas like collections, caching, concurrency, string processing, and more, which are not adequately addressed by the standard JDK.",
+  "key_features": [
+    "Advanced and immutable collections (e.g., Multimap, BiMap, ImmutableList)",
+    "High-performance in-memory caching (CacheBuilder)",
+    "Concurrency utilities (e.g., ListenableFuture, Service framework)",
+    "Functional programming idioms (e.g., Optional, Preconditions, FluentIterable)",
+    "String manipulation and I/O utilities"
+  ],
+  "era_and_niche": "A foundational, high-quality library for modern Java development since its release. It has set the standard for API design and utility libraries in the Java world, influencing the design of the standard JDK itself (e.g., Optional).",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. However, some of its features have been gradually integrated into the standard Java JDK in newer versions (e.g., Optional, some stream-like functionalities). Migration away from it is rare, but some projects may choose to use pure JDK features where possible to reduce dependencies, or use more specialized libraries for specific tasks (e.g., Caffeine for caching).",
+  "keywords_for_analysis": [
+    "utility library",
+    "collections",
+    "caching",
+    "concurrency",
+    "immutable",
+    "functional programming",
+    "Apache Commons"
+  ]
+}

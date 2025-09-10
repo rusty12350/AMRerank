@@ -1,0 +1,21 @@
+{
+  "library_name": "org.reflections:reflections",
+  "core_problem_solved": "To provide a Java library that scans the application's classpath to index class metadata, enabling developers to query for classes, methods, and annotations at runtime without manual iteration.",
+  "key_features": [
+    "Discovering all subtypes of a given type or interface",
+    "Finding all types that are annotated with a specific annotation",
+    "Retrieving all methods with a given signature or annotation",
+    "Scanning multiple sources, including URLs and directories"
+  ],
+  "era_and_niche": "A popular and powerful library for implementing framework-level features like plugin systems, dependency injection (DI), and dynamic configuration, where runtime class discovery is required.",
+  "reason_for_obsolescence": "This library is **not obsolete** but faces strong competition. The library **`io.github.classgraph:classgraph`** (formerly FastClasspathScanner) is widely considered a more modern, faster, and more robust alternative for classpath scanning. Additionally, major frameworks like Spring have their own highly-optimized, built-in classpath scanning mechanisms that are preferred within that ecosystem.",
+  "keywords_for_analysis": [
+    "classpath scanning",
+    "reflection",
+    "metadata",
+    "annotations",
+    "dynamic discovery",
+    "classgraph",
+    "Spring"
+  ]
+}

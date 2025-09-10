@@ -1,0 +1,21 @@
+{
+  "library_name": "org.jline:jline",
+  "core_problem_solved": "To provide a Java library for advanced console input handling, enabling interactive command-line applications with features like line editing, history, and tab completion, similar to a standard Unix shell.",
+  "key_features": [
+    "Rich console line editing and character-level input",
+    "Persistent command history (e.g., using arrow keys)",
+    "An extensible tab-completion framework",
+    "Support for ANSI colors and styles for formatted output"
+  ],
+  "era_and_niche": "The modern, de facto standard library for building interactive command-line interfaces (CLIs) in Java. It is a core component of many popular CLI tools and frameworks, like Spring Shell, Groovy's shell, and others.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the direct successor to older console-reading libraries (including its own previous versions under different coordinates) and has established itself as the leader in its niche.",
+  "keywords_for_analysis": [
+    "CLI",
+    "console",
+    "terminal",
+    "JLine",
+    "REPL",
+    "command-line",
+    "interactive"
+  ]
+}

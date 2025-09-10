@@ -1,0 +1,17 @@
+{
+  "library_name": "io.netty:netty-all",
+  "core_problem_solved": "To provide all modules of the Netty networking framework in a single, convenient JAR file, simplifying dependency management by eliminating the need to declare each module individually.",
+  "key_features": [
+    "Bundles all Netty components, including buffer management, codecs, handlers, and various transport implementations, into one artifact."
+  ],
+  "era_and_niche": "A convenience 'uber-jar' for the Netty framework, often used in older projects or for simpler setups where fine-grained dependency management was less of a concern.",
+  "reason_for_obsolescence": "The Netty project team **officially discourages the use of this artifact**. It leads to bloated application sizes ('JAR hell') and increases the risk of dependency conflicts. The modern, recommended approach is to use the Netty Bill of Materials (BOM) to manage versions while declaring dependencies on only the specific, required modules (e.g., `netty-codec`, `netty-handler`).",
+  "keywords_for_analysis": [
+    "netty",
+    "uber-jar",
+    "shaded",
+    "modularization",
+    "dependency management",
+    "BOM"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.logging.log4j:log4j-core",
+  "core_problem_solved": "To provide the core implementation of the Apache Log4j 2 logging framework, containing the logic for processing log events and routing them to various destinations (appenders).",
+  "key_features": [
+    "A high-performance, asynchronous logging engine to prevent blocking application threads",
+    "A rich set of appenders (Console, File, RollingFile, Socket, etc.)",
+    "Flexible layouts for formatting log messages (PatternLayout, JsonLayout, etc.)",
+    "A powerful plugin-based architecture for custom extensions"
+  ],
+  "era_and_niche": "The standard implementation for the modern Apache Log4j 2 framework. It is the official successor to the legacy `log4j:log4j` and a direct competitor to `ch.qos.logback:logback-classic`.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is an actively maintained, state-of-the-art logging implementation. Any project using the legacy Log4j 1.x should migrate to this library.",
+  "keywords_for_analysis": [
+    "logging",
+    "Log4j2",
+    "implementation",
+    "asynchronous",
+    "Logback"
+  ]
+}

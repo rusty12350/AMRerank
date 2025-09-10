@@ -1,0 +1,20 @@
+{
+  "library_name": "org.jmockit:jmockit",
+  "core_problem_solved": "To provide a comprehensive mocking framework for Java unit tests, with powerful capabilities to mock difficult-to-test constructs like static methods, final classes, and constructors through the use of bytecode instrumentation.",
+  "key_features": [
+    "Mocking of static methods, final methods, and constructors via a Java agent",
+    "An expectations-based API for recording and verifying behavior",
+    "An integrated code coverage tool"
+  ],
+  "era_and_niche": "A powerful mocking tool known for its ability to handle complex and legacy codebases that were difficult to test with other frameworks. This is its modern coordinate.",
+  "reason_for_obsolescence": "While powerful, it is considered a **legacy choice** in terms of community adoption. Its popularity has significantly declined, and it has been largely superseded by **Mockito**, which is now the de facto industry standard for mocking in Java due to its simpler API, better ecosystem support, and avoidance of bytecode instrumentation 'magic'.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "unit test",
+    "TDD",
+    "Mockito",
+    "EasyMock",
+    "bytecode instrumentation"
+  ]
+}

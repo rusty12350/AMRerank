@@ -1,0 +1,20 @@
+{
+  "library_name": "com.spotify:hamcrest-optional",
+  "core_problem_solved": "To provide custom Hamcrest matchers for `java.util.Optional`, enabling more expressive and readable assertions in unit tests that involve `Optional` types introduced in Java 8.",
+  "key_features": [
+    "Provides Hamcrest matchers such as `isPresent()`, `isEmpty()`, and `hasValue(T)`",
+    "Improves the fluency of test code when asserting the state of Optional objects"
+  ],
+  "era_and_niche": "A small, specialized testing utility for projects that use both the Hamcrest assertion library and the Java 8 `Optional` type.",
+  "reason_for_obsolescence": "This library is no longer actively maintained. Its functionality can be replaced in two common ways: (1) Relying solely on the core `org.hamcrest:hamcrest` library by writing simple custom matchers or using built-in matchers, removing the need for this extension; or (2) Migrating the entire test suite to a more feature-rich assertion framework like **AssertJ**, which has built-in Optional assertions. Both approaches reduce dependency footprint and simplify the testing toolchain.",
+  "keywords_for_analysis": [
+	"testing",
+    "assertion",
+    "Hamcrest",
+    "Optional",
+    "JUnit",
+    "AssertJ",
+    "unit test",
+    "matcher"
+  ]
+}

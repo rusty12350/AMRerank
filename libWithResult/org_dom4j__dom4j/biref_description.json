@@ -1,0 +1,22 @@
+{
+  "library_name": "org.dom4j:dom4j",
+  "core_problem_solved": "To provide an easy-to-use and flexible open-source framework for processing XML in Java using a tree-based model (DOM), as an alternative to the more cumbersome standard W3C DOM APIs.",
+  "key_features": [
+    "An intuitive, object-oriented API for representing XML documents",
+    "Integrated support for XPath queries (often via the Jaxen library)",
+    "Support for SAX and DOM parsing models",
+    "Was known for better performance and flexibility than the standard DOM implementation"
+  ],
+  "era_and_niche": "A very popular and highly regarded XML processing library in the Java ecosystem during the 2000s. It was famously used as a core dependency in the Hibernate ORM framework for parsing its XML configuration and mapping files.",
+  "reason_for_obsolescence": "This library is a **legacy library** and is no longer actively developed. For most use cases, modern alternatives are preferred: the standard JAXP APIs in the JDK for basic DOM/XPath, JAXB or Jackson-XML for data binding, or `jsoup` for HTML processing.",
+  "keywords_for_analysis": [
+    "XML",
+    "DOM",
+    "parser",
+    "XPath",
+    "JDOM",
+    "JAXP",
+    "Hibernate",
+    "legacy"
+  ]
+}

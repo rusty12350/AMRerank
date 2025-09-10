@@ -1,0 +1,20 @@
+{
+  "library_name": "net.minidev:json-smart",
+  "core_problem_solved": "To provide a high-performance, low-memory-footprint JSON parser and generator for Java, focusing on speed and strict RFC 7159 compliance.",
+  "key_features": [
+    "Fast JSON parsing into standard Java objects",
+    "A small JAR size, making it suitable for constrained environments",
+    "Strict compliance with JSON specifications"
+  ],
+  "era_and_niche": "A specialized, performance-oriented JSON library, most known for being the default parser used by the popular `json-path` library to query JSON documents.",
+  "reason_for_obsolescence": "This is a **legacy library** for general use. While performant for its specific parsing task, it lacks the comprehensive data-binding features, extensive documentation, and large community support of the de facto industry standards for Java JSON processing: **Jackson** (`com.fasterxml.jackson.core:jackson-databind`) and **Gson** (`com.google.code.gson:gson`).",
+  "keywords_for_analysis": [
+    "JSON",
+    "parser",
+    "performance",
+    "legacy",
+    "Jackson",
+    "Gson",
+    "json-path"
+  ]
+}

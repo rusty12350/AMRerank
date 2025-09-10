@@ -1,0 +1,20 @@
+{
+  "library_name": "org.fusesource.jansi:jansi",
+  "core_problem_solved": "To provide a simple, cross-platform Java library for using ANSI escape codes to format console output, such as adding colors and styles, in a way that works on both Unix-like terminals and the Windows console.",
+  "key_features": [
+    "ANSI escape code generation for text styling (color, bold, etc.)",
+    "Automatic detection and handling of platform-specific terminal support",
+    "A simple API for wrapping standard output streams to enable ANSI processing"
+  ],
+  "era_and_niche": "A useful utility library for any Java command-line application (CLI) that needs to produce styled text output in a cross-platform manner.",
+  "reason_for_obsolescence": "The library is **not obsolete** but is a very specialized utility. Its functionality is often included in larger, more comprehensive command-line frameworks. The modern command-line parsing library **picocli**, for example, has its own, more powerful ANSI styling capabilities built-in, making Jansi redundant for projects that already use picocli.",
+  "keywords_for_analysis": [
+    "ANSI",
+    "console",
+    "terminal",
+    "CLI",
+    "color",
+    "styling",
+    "picocli"
+  ]
+}

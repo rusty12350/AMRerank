@@ -1,0 +1,19 @@
+{
+  "library_name": "com.google.collections:google-collections",
+  "core_problem_solved": "To provide a set of powerful extensions to the standard Java Collections Framework, introducing concepts like immutable collections and new collection types (e.g., Multimap, BiMap) that were not available in the JDK.",
+  "key_features": [
+    "Introduced immutable collections (`ImmutableList`, `ImmutableSet`, `ImmutableMap`)",
+    "New collection types like `Multimap` (one key, multiple values) and `BiMap` (bidirectional map)",
+    "Functional programming utilities for collections"
+  ],
+  "era_and_niche": "The original, pioneering collections library from Google, released in the late 2000s. It set a new standard for Java utility libraries and heavily influenced later versions of the JDK.",
+  "reason_for_obsolescence": "This artifact is **obsolete**. The project was officially renamed and significantly expanded to become the **Google Guava** library. The direct and official successor is **`com.google.guava:guava`**. All projects using `google-collections` must migrate to `guava` to receive updates and new features.",
+  "keywords_for_analysis": [
+    "collections",
+    "Guava",
+    "immutable",
+    "utility library",
+    "legacy",
+    "Google"
+  ]
+}

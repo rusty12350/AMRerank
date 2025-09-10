@@ -1,0 +1,16 @@
+{
+  "library_name": "groovy:groovy-all",
+  "core_problem_solved": "To provide the Groovy dynamic language and all of its official modules in a single 'uber-jar' under its original, legacy Maven coordinate.",
+  "key_features": [
+    "Bundled the Groovy compiler, runtime, and all standard extension modules (for XML, JSON, SQL, etc.) into a single JAR file."
+  ],
+  "era_and_niche": "A convenience artifact for very early versions of the Groovy language, used to simplify dependency setup before the project joined the Apache Software Foundation and adopted modern dependency management practices.",
+  "reason_for_obsolescence": "This artifact is **doubly obsolete**. First, its coordinate is legacy; the project's modern home is **`org.apache.groovy`**. Second, the 'uber-jar' (`-all`) packaging approach is officially discouraged. The modern, recommended way to use Groovy is to depend on the core modular artifact, **`org.apache.groovy:groovy`**.",
+  "keywords_for_analysis": [
+    "Groovy",
+    "JVM language",
+    "uber-jar",
+    "legacy",
+    "dependency management"
+  ]
+}

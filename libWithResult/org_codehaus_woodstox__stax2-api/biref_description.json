@@ -1,0 +1,20 @@
+{
+  "library_name": "org.codehaus.woodstox:stax2-api",
+  "core_problem_solved": "To define a superset of the standard StAX (Streaming API for XML, JSR-173) API, adding new features for improved performance, validation, and usability that were found to be missing from the original specification.",
+  "key_features": [
+    "Defines additional API interfaces for typed access (e.g., reading numbers directly)",
+    "Adds capabilities for DTD and schema validation against the stream",
+    "This artifact contains only the API interfaces, not the implementation."
+  ],
+  "era_and_niche": "A specialized API for high-performance XML parsing in Java. It is the official API for the Woodstox StAX implementation, one of the fastest XML parsers available for Java.",
+  "reason_for_obsolescence": "This API is **not obsolete**. It is a core part of the Woodstox XML parser, which is still a state-of-the-art, high-performance StAX implementation. It is used in scenarios that require faster XML processing than what the default JDK parser (part of JAXP) provides.",
+  "keywords_for_analysis": [
+    "XML",
+    "StAX",
+    "parser",
+    "performance",
+    "API",
+    "Woodstox",
+    "JAXP"
+  ]
+}

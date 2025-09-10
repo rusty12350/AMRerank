@@ -1,0 +1,21 @@
+{
+  "library_name": "it.unimi.dsi:fastutil",
+  "core_problem_solved": "To provide a high-performance extension of the Java Collections Framework with type-specific collections for primitive types (int, long, double, etc.), thereby avoiding the memory and performance overhead of autoboxing and unboxing.",
+  "key_features": [
+    "Type-specific maps, sets, lists, and queues for all Java primitives (e.g., `Int2ObjectOpenHashMap`)",
+    "Significantly reduced memory footprint compared to standard collections holding wrapper types",
+    "Fast utility classes for sorting, searching, and manipulating primitive arrays",
+    "Big collections that can hold more than 2^31 elements"
+  ],
+  "era_and_niche": "A specialized, high-performance library crucial for memory- and GC-sensitive applications, such as big data processing (e.g., in Apache Spark), scientific computing, and low-latency financial systems.",
+  "reason_for_obsolescence": "This library is **not obsolete** and remains a standard choice for performance-critical code. While modern JVMs have improved autoboxing performance, the fundamental memory overhead of wrapper objects still exists. Migration away from it is an architectural decision, typically when an application's performance needs are no longer strict enough to justify using a specialized collections library over the standard `java.util` collections.",
+  "keywords_for_analysis": [
+    "collections",
+    "performance",
+    "primitive types",
+    "autoboxing",
+    "garbage collection",
+    "big data",
+    "Trove"
+  ]
+}

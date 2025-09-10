@@ -1,0 +1,17 @@
+{
+  "library_name": "org.hamcrest:hamcrest-all",
+  "core_problem_solved": "To provide the Hamcrest core library and a comprehensive set of matcher implementations (for collections, numbers, text, etc.) in a single, convenient 'uber-jar'.",
+  "key_features": [
+    "Bundled the `assertThat` assertion mechanism with numerous matchers to write declarative, readable tests."
+  ],
+  "era_and_niche": "A convenience artifact for older versions of Hamcrest, used to easily include the entire library without managing individual matcher module dependencies.",
+  "reason_for_obsolescence": "This artifact is **deprecated**. The modern approach is to depend on the unified **`org.hamcrest:hamcrest`** artifact (for Hamcrest 2.x), which replaced both `-core` and `-all`, and let the build tool manage transitive dependencies. The Hamcrest style itself also competes with the more popular fluent-style assertions of AssertJ.",
+  "keywords_for_analysis": [
+    "testing",
+    "assertion",
+    "matching",
+    "Hamcrest",
+    "uber-jar",
+    "legacy"
+  ]
+}

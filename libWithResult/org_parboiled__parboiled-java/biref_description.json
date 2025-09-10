@@ -1,0 +1,20 @@
+{
+  "library_name": "org.parboiled:parboiled-java",
+  "core_problem_solved": "To provide a pure-Java library for building elegant, easy-to-read parsers for formal languages directly in Java code, without an external grammar definition file, based on Parsing Expression Grammars (PEGs).",
+  "key_features": [
+    "Defining grammars directly and fluently in Java code",
+    "Support for creating an Abstract Syntax Tree (AST) from the parse",
+    "Good error reporting and debugging capabilities for grammars"
+  ],
+  "era_and_niche": "An innovative parsing library, popular with developers who preferred defining grammars in pure code over using a separate grammar file and a code generation step (like ANTLR).",
+  "reason_for_obsolescence": "This specific library, `parboiled-java` for Java 6/7, is **obsolete and no longer maintained**. The project was completely rewritten as **Parboiled 2**, which is written in Scala but offers full Java compatibility and leverages modern language features. The official successor is the Parboiled 2 artifact (e.g., `org.parboiled:parboiled_2.12`).",
+  "keywords_for_analysis": [
+    "parser",
+    "PEG",
+    "grammar",
+    "AST",
+    "fluent API",
+    "ANTLR",
+    "JavaCC"
+  ]
+}

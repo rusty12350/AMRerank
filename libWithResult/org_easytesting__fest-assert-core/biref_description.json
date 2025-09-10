@@ -1,0 +1,18 @@
+{
+  "library_name": "org.easytesting:fest-assert-core",
+  "core_problem_solved": "To provide the core implementation of the FEST fluent assertion library for Java.",
+  "key_features": [
+    "Contained the core assertion logic and fluent API for the FEST-Assert library."
+  ],
+  "era_and_niche": "The core module of the pioneering FEST-Assert library, upon which other modules were built.",
+  "reason_for_obsolescence": "This library is **obsolete**. It was superseded by its official and complete rewrite, **AssertJ** (`org.assertj:assertj-core`), which is the modern standard for fluent assertions in Java.",
+  "keywords_for_analysis": [
+    "testing",
+    "assertion",
+    "fluent assertions",
+    "TDD",
+    "legacy",
+    "AssertJ",
+    "JUnit"
+  ]
+}

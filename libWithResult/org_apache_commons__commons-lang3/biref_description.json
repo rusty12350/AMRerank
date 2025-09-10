@@ -1,0 +1,21 @@
+{
+  "library_name": "org.apache.commons:commons-lang3",
+  "core_problem_solved": "To provide a host of helper utilities for the `java.lang` API, adding functionality for common operations that are missing or cumbersome in the standard Java library.",
+  "key_features": [
+    "String manipulation utilities (`StringUtils`: null-safe, checking, trimming, etc.)",
+    "Array manipulation utilities (`ArrayUtils`)",
+    "Object utilities (`ObjectUtils`: null-safe `toString`, `equals`)",
+    "Builder classes for `equals`, `hashCode`, and `toString` methods",
+    "Number and Date utilities"
+  ],
+  "era_and_niche": "A foundational and nearly ubiquitous utility library in the Java ecosystem. `commons-lang3` is the modern successor to the older `commons-lang`, with a different package (`org.apache.commons.lang3`) to allow side-by-side usage.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. While newer versions of Java and other libraries (like Guava) have incorporated some similar functionalities, Commons Lang 3 remains extremely popular for its comprehensive, null-safe, and highly reliable set of core utilities. It is a stable and standard choice for almost any Java project.",
+  "keywords_for_analysis": [
+    "utility library",
+    "StringUtils",
+    "ArrayUtils",
+    "Apache Commons",
+    "boilerplate",
+    "helper"
+  ]
+}

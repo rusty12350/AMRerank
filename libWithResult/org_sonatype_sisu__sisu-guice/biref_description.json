@@ -1,0 +1,18 @@
+{
+  "library_name": "org.sonatype.sisu:sisu-guice",
+  "core_problem_solved": "To provide a compatibility bridge between the Sisu component framework (used internally by Maven) and the Google Guice dependency injection framework, allowing components from both containers to be wired together.",
+  "key_features": [
+    "Adapters and shims to make Guice bindings available to the Sisu container, and vice-versa."
+  ],
+  "era_and_niche": "A specialized, framework-internal library used within Sonatype projects like Apache Maven and Nexus to integrate different dependency injection containers.",
+  "reason_for_obsolescence": "This is a **legacy library**. The Sisu framework itself is a niche technology that is not a common choice for new application development. The modern standards for dependency injection are the **Spring Framework**, **Jakarta CDI**, and to a lesser extent, **Google Guice** on its own.",
+  "keywords_for_analysis": [
+    "dependency injection",
+    "DI",
+    "IoC",
+    "Sisu",
+    "Guice",
+    "Maven",
+    "legacy"
+  ]
+}

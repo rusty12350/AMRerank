@@ -1,0 +1,21 @@
+{
+  "library_name": "org.postgresql:postgresql",
+  "core_problem_solved": "To provide a standard, Type 4 JDBC driver for Java applications to connect and interact with PostgreSQL databases, which is a powerful, open-source object-relational database system.",
+  "key_features": [
+    "Implements the Java Database Connectivity (JDBC) 4.2 API",
+    "Provides support for advanced PostgreSQL features like JSONB, array data types, and logical replication",
+    "Offers robust connection pooling and performance tuning options",
+    "SSL support for secure connections"
+  ],
+  "era_and_niche": "The official and essential JDBC driver for PostgreSQL. It is the modern, standard choice for any Java application connecting to a PostgreSQL database.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the official successor to the legacy Maven coordinate `postgresql:postgresql`. Migration away from it would typically involve an architectural shift to a completely different database system (e.g., MySQL, Oracle).",
+  "keywords_for_analysis": [
+    "JDBC",
+    "database driver",
+    "PostgreSQL",
+    "Postgres",
+    "SQL",
+    "relational database",
+    "JPA"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "library_name": "easymock:easymock",
+  "core_problem_solved": "To provide a framework for creating mock objects for interfaces and classes in Java, enabling unit testing of objects in isolation from their dependencies.",
+  "key_features": [
+    "A dynamic mocking framework (no need to write mock classes by hand)",
+    "Pioneered the 'record-replay-verify' pattern for setting and verifying expectations on mocks"
+  ],
+  "era_and_niche": "A pioneering and highly popular dynamic mocking framework in the mid-to-late 2000s, which was a significant improvement over classic, manual mocking and a direct competitor to JMock.",
+  "reason_for_obsolescence": "This is a **legacy library**. Its 'record-replay-verify' paradigm has been almost entirely superseded by the more flexible and readable 'stubbing' approach (`when(...).thenReturn(...)`) of **`org.mockito:mockito-core`**. Mockito is now the de facto industry standard for mocking in Java.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "unit test",
+    "TDD",
+    "legacy",
+    "Mockito",
+    "JMock"
+  ]
+}

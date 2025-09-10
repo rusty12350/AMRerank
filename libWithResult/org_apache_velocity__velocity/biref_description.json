@@ -1,0 +1,20 @@
+{
+  "library_name": "org.apache.velocity:velocity",
+  "core_problem_solved": "To provide a Java-based template engine that allows for a clean separation of presentation (the HTML, SQL, or other text output) from business logic (the Java code).",
+  "key_features": [
+    "A simple but powerful template language (VTL - Velocity Template Language)",
+    "Ability to render templates with data from a Java 'context' object",
+    "Can be used for generating web pages, SQL queries, emails, or any other text-based format"
+  ],
+  "era_and_niche": "A very popular and influential template engine in the early days of Java web development (early 2000s), particularly in the Model-View-Controller (MVC) architectural pattern before JSP and JSF became dominant.",
+  "reason_for_obsolescence": "While **not strictly obsolete** (the project saw a modern revival as 'Velocity Engine'), its popularity has significantly declined. In the web space, it was largely superseded by frameworks like JSP/JSTL, and later by more modern template engines like **Thymeleaf** (especially in the Spring ecosystem) or client-side JavaScript rendering. For general-purpose templating, alternatives like FreeMarker or StringTemplate also exist.",
+  "keywords_for_analysis": [
+    "template engine",
+    "MVC",
+    "VTL",
+    "code generation",
+    "Thymeleaf",
+    "FreeMarker",
+    "JSP"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "dumbster:dumbster",
+  "core_problem_solved": "To provide a simple, in-memory fake SMTP server for Java applications, enabling developers to test email sending functionality during unit or integration tests without actually sending emails over the network.",
+  "key_features": [
+    "Acts as a lightweight mock SMTP server",
+    "Receives and stores emails in memory",
+    "Provides an API to retrieve and assert the content of received emails during tests"
+  ],
+  "era_and_niche": "A lightweight and popular tool for testing email functionality in Java applications, particularly in the 2000s and early 2010s due to its simplicity.",
+  "reason_for_obsolescence": "The original `dumbster:dumbster` project has been dormant for many years. However, its utility has led to the creation of numerous **community forks** (e.g., `com.github.kirviq:dumbster`) that continue its development and provide compatibility with modern Java versions and build tools. Therefore, the direct migration path is often to one of these active forks. More feature-rich alternatives like GreenMail also exist.",
+  "keywords_for_analysis": [
+    "SMTP",
+    "email",
+    "testing",
+    "mock server",
+    "fake server",
+    "unit test",
+    "integration test",
+    "GreenMail"
+  ]
+}

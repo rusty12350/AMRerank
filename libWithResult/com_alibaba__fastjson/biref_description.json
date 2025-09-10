@@ -1,0 +1,23 @@
+{
+  "library_name": "com.alibaba:fastjson",
+  "core_problem_solved": "To provide a very high-performance Java library for serializing Java objects to JSON and deserializing JSON back to Java objects.",
+  "key_features": [
+    "High-speed JSON processing, often leading performance benchmarks",
+    "Data binding between POJOs and JSON strings",
+    "A flexible API for customization, including the powerful but dangerous 'auto-type' feature"
+  ],
+  "era_and_niche": "An extremely popular JSON library, particularly in the Chinese Java community, renowned for its benchmark-leading performance throughout the 2010s.",
+  "reason_for_obsolescence": "This library is **legacy and its use is strongly discouraged**. It has a widely-known and extensive history of **critical security vulnerabilities** related to its default 'auto-type' deserialization feature, which can lead to remote code execution (RCE). The official successor is **`com.alibaba:fastjson2`**, which was rewritten with a focus on security. However, the industry-standard and generally recommended libraries for JSON processing are **Jackson** (`com.fasterxml.jackson.core:jackson-databind`) and **Gson**.",
+  "keywords_for_analysis": [
+    "JSON",
+    "serialization",
+    "deserialization",
+    "performance",
+    "vulnerability",
+    "RCE",
+    "legacy",
+    "Jackson",
+    "Gson",
+    "fastjson2"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.commons:commons-collections4",
+  "core_problem_solved": "To provide a modern, generics-enabled, and rich set of extensions to the standard Java Collections Framework, serving as the official successor to the original `commons-collections`.",
+  "key_features": [
+    "Full support for Java Generics, providing type safety",
+    "New collection types like `BidiMap` (bidirectional map) and `Bag` (multiset)",
+    "Powerful utility classes (`CollectionUtils`, `ListUtils`, etc.) for common operations",
+    "A redesigned API to be safer and more robust than its predecessor"
+  ],
+  "era_and_niche": "The modern, official collections utility library from the Apache Commons project. It is the direct, actively maintained successor to the original, non-generic, and insecure `commons-collections`.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. However, it faces very strong competition from **`com.google.guava:guava`**, which is often considered the de facto industry standard for a third-party collections and utility library in modern Java development due to its modern API design and broader feature set.",
+  "keywords_for_analysis": [
+    "collections",
+    "utility library",
+    "generics",
+    "Apache Commons",
+    "Guava"
+  ]
+}

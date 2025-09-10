@@ -1,0 +1,18 @@
+{
+  "library_name": "saxon:saxon",
+  "core_problem_solved": "To provide a high-performance implementation of modern XML processing standards like XSLT 2.0/3.0 and XQuery 3.0/3.1.",
+  "key_features": [
+    "A leading XSLT 3.0 and XQuery 3.1 processor",
+    "A high-performance XPath engine supporting modern standards"
+  ],
+  "era_and_niche": "An early, legacy Maven coordinate for the Saxon XML processor, which is the state-of-the-art for XML transformations.",
+  "reason_for_obsolescence": "While the Saxon technology is state-of-the-art, this specific Maven coordinate is **obsolete**. The project's modern and actively maintained artifacts are published under the **`net.sf.saxon`** groupId, with the primary open-source artifact being `net.sf.saxon:saxon-he`.",
+  "keywords_for_analysis": [
+    "XSLT",
+    "XQuery",
+    "XPath",
+    "XML",
+    "legacy",
+    "Saxon"
+  ]
+}

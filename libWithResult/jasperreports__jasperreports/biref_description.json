@@ -1,0 +1,21 @@
+{
+  "library_name": "jasperreports:jasperreports",
+  "core_problem_solved": "To provide a comprehensive, open-source reporting engine for Java, enabling the generation of pixel-perfect, data-driven documents from virtually any data source and exporting them to a wide variety of formats.",
+  "key_features": [
+    "Connectivity to multiple data sources (JDBC, XML, CSV, Java Beans, etc.)",
+    "XML-based report templates (JRXML) that can be designed visually (e.g., with Jaspersoft Studio)",
+    "A rich set of report elements including charts, images, subreports, and tables",
+    "Exporting capabilities to numerous formats like PDF, HTML, XLS, CSV, and DOCX"
+  ],
+  "era_and_niche": "A dominant force in Java-based business intelligence and enterprise reporting for many years. It is the go-to solution for generating complex, multi-page documents like invoices, financial statements, and detailed operational reports.",
+  "reason_for_obsolescence": "This library is **not obsolete** but its problem domain has become more specialized. While it remains a leader for complex, print-oriented document generation, many simpler reporting tasks in modern web applications are now handled by client-side JavaScript libraries that visualize data from APIs. Its main competitor is the Eclipse BIRT project.",
+  "keywords_for_analysis": [
+    "reporting",
+    "business intelligence",
+    "BI",
+    "PDF generation",
+    "JRXML",
+    "Jaspersoft",
+    "BIRT"
+  ]
+}

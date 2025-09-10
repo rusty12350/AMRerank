@@ -1,0 +1,23 @@
+{
+  "library_name": "com.hazelcast:hazelcast-client",
+  "core_problem_solved": "To allow a Java application to connect to a Hazelcast In-Memory Data Grid (IMDG) cluster as a client, enabling it to access and manipulate distributed data structures and computation services without being a full member of the cluster.",
+  "key_features": [
+    "Client-server connection to a Hazelcast cluster",
+    "Access to distributed data structures (e.g., IMap, IQueue, ITopic)",
+    "Smart client routing that is partition-aware",
+    "Automatic reconnection and fault tolerance",
+    "Execution of distributed computations (e.g., EntryProcessor, distributed tasks)"
+  ],
+  "era_and_niche": "A core component of the Hazelcast ecosystem, which is a leading In-Memory Data Grid (IMDG) and stream processing platform. This client is the standard way for Java applications to interact with a Hazelcast cluster.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained alongside the Hazelcast server. Migration away from it would typically involve a major architectural change, such as replacing the entire Hazelcast IMDG with a different technology like Redis, Apache Ignite, or a cloud-native caching service, which would require using that technology's specific client library.",
+  "keywords_for_analysis": [
+    "Hazelcast",
+    "IMDG",
+    "in-memory data grid",
+    "distributed cache",
+    "client-server",
+    "distributed computing",
+    "Redis",
+    "Ignite"
+  ]
+}

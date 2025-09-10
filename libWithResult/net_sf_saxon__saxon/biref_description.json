@@ -1,0 +1,21 @@
+{
+  "library_name": "net.sf.saxon:saxon",
+  "core_problem_solved": "To provide a complete, conformant, and high-performance implementation of modern XML processing standards, including XSLT 2.0/3.0, XQuery 3.0/3.1, and XPath 2.0/3.1, which are far more powerful than the legacy versions included in the standard JDK.",
+  "key_features": [
+    "A leading XSLT 3.0 and XQuery 3.1 processor",
+    "Schema validation (XSD 1.1)",
+    "A high-performance XPath engine supporting modern standards",
+    "Availability in open-source (Home Edition) and commercial editions"
+  ],
+  "era_and_niche": "The industry-standard, state-of-the-art processor for advanced XML transformations and querying in the Java (and .NET) ecosystems. It is essential for any project that needs to go beyond the capabilities of the built-in JAXP.",
+  "reason_for_obsolescence": "This library is **not obsolete**; it is a modern, actively maintained, and leading product. It is the **modern functional replacement** for older XSLT 1.0 processors like Apache Xalan, which was often the default in older Java environments.",
+  "keywords_for_analysis": [
+    "XSLT",
+    "XQuery",
+    "XPath",
+    "XML",
+    "transformation",
+    "JAXP",
+    "Xalan"
+  ]
+}

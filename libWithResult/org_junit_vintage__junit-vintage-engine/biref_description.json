@@ -1,0 +1,21 @@
+{
+  "library_name": "org.junit.vintage:junit-vintage-engine",
+  "core_problem_solved": "To provide a `TestEngine` implementation for the JUnit 5 platform that allows it to discover and execute tests written with legacy versions of JUnit (specifically JUnit 3 and JUnit 4).",
+  "key_features": [
+    "A test engine for backward compatibility",
+    "Allows old JUnit 4 tests (`@Test` from `org.junit.Test`) and new JUnit 5 tests to be run together in the same test suite",
+    "Enables a gradual migration from JUnit 4 to JUnit 5"
+  ],
+  "era_and_niche": "A compatibility and migration tool within the modern JUnit 5 ecosystem. It is essential for projects that are in the process of migrating from the legacy JUnit 4 to the modern JUnit 5 platform.",
+  "reason_for_obsolescence": "The engine itself is **not obsolete**, but its sole purpose is to run **legacy tests**. For a brand new project starting with only JUnit 5, this dependency is not needed. Its presence in a project's build is a clear sign that the project still contains legacy JUnit 4 tests that have not yet been migrated to the modern JUnit 5 API.",
+  "keywords_for_analysis": [
+    "testing",
+    "JUnit",
+    "JUnit 4",
+    "JUnit 5",
+    "Vintage",
+    "legacy",
+    "migration",
+    "backward compatibility"
+  ]
+}

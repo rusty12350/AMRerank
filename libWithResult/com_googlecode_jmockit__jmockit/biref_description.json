@@ -1,0 +1,20 @@
+{
+  "library_name": "com.googlecode.jmockit:jmockit",
+  "core_problem_solved": "To provide a comprehensive mocking framework for Java unit tests, with powerful capabilities to mock difficult-to-test constructs like static methods, final classes, and constructors through the use of bytecode instrumentation.",
+  "key_features": [
+    "Mocking of static and final methods via a Java agent",
+    "An expectations-based API for recording and verifying behavior",
+    "An integrated code coverage tool"
+  ],
+  "era_and_niche": "A powerful mocking tool hosted on the now-archived Google Code platform, known for its ability to handle complex and legacy codebases that were difficult to test with other frameworks.",
+  "reason_for_obsolescence": "This is a **legacy library**. Its popularity has significantly declined, and it has been largely superseded by **Mockito**, which is now the de facto industry standard for mocking in Java. Mockito's simpler API, better ecosystem integration, and strong community support have made it the preferred choice for most developers.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "unit test",
+    "legacy",
+    "Mockito",
+    "EasyMock",
+    "bytecode instrumentation"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "org.jsoup:jsoup",
+  "core_problem_solved": "To provide a convenient and robust API for fetching, parsing, manipulating, and cleaning real-world HTML documents in Java, simplifying tasks like web scraping and server-side DOM manipulation.",
+  "key_features": [
+    "Tolerant parsing of malformed, real-world HTML, similar to modern web browsers",
+    "A powerful jQuery-like API with CSS selectors for finding and extracting data",
+    "Methods for manipulating HTML elements, attributes, and text",
+    "Sanitization features to clean user-submitted HTML and prevent XSS attacks"
+  ],
+  "era_and_niche": "The modern, de facto standard library for all HTML processing tasks in the Java ecosystem. It is the go-to choice for web scraping and any server-side HTML manipulation.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the **modern functional replacement** for a whole generation of older, now-legacy Java HTML parsers like NekoHTML, Jericho HTML Parser, and org.htmlparser.",
+  "keywords_for_analysis": [
+    "HTML",
+    "parser",
+    "web scraping",
+    "DOM",
+    "CSS selector",
+    "XSS",
+    "NekoHTML"
+  ]
+}

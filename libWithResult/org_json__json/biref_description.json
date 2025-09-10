@@ -1,0 +1,20 @@
+{
+  "library_name": "org.json:json",
+  "core_problem_solved": "To provide a simple, reference implementation for creating, parsing, and manipulating JSON data structures in Java, based on a `JSONObject` and `JSONArray` tree model.",
+  "key_features": [
+    "`JSONObject` for representing key-value pairs (maps)",
+    "`JSONArray` for representing ordered lists",
+    "Methods to parse from a JSON string and serialize to a JSON string"
+  ],
+  "era_and_niche": "The original reference implementation of JSON for Java, created by Douglas Crockford, who popularized the JSON format. It was one of the first and most direct ways for Java developers to work with JSON.",
+  "reason_for_obsolescence": "This is a **legacy library** for modern application development. It critically lacks data binding (automatic conversion to/from Plain Old Java Objects - POJOs), which is a standard feature of modern libraries. The Java ecosystem has almost entirely standardized on the far more powerful and convenient **Jackson** (`com.fasterxml.jackson.core:jackson-databind`) and **Gson** (`com.google.code.gson:gson`) libraries.",
+  "keywords_for_analysis": [
+    "JSON",
+    "parser",
+    "tree model",
+    "legacy",
+    "Jackson",
+    "Gson",
+    "data binding"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "library_name": "org.infinispan:infinispan-core",
+  "core_problem_solved": "To provide a high-performance, distributed, in-memory data grid (IMDG) that can be used as a distributed cache or a key/value NoSQL database for Java applications, enabling high availability and scalability.",
+  "key_features": [
+    "Multiple caching modes (distributed, replicated, invalidated)",
+    "JTA/XA compliance for distributed transactions",
+    "An event-driven architecture for listening to cache events",
+    "Distributed query capabilities and in-memory code execution"
+  ],
+  "era_and_niche": "A leading, modern in-memory data grid in the Java enterprise ecosystem, heavily associated with JBoss/Red Hat technologies and often used in high-throughput, mission-critical applications.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is an actively maintained, state-of-the-art product. Its primary and direct competitor is **Hazelcast**. It also competes with other solutions in the distributed caching and data grid space like **Apache Ignite** and **Redis**.",
+  "keywords_for_analysis": [
+    "IMDG",
+    "in-memory data grid",
+    "distributed cache",
+    "key-value store",
+    "NoSQL",
+    "JBoss",
+    "Hazelcast",
+    "Ignite",
+    "Redis"
+  ]
+}

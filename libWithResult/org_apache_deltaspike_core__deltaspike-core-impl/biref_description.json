@@ -1,0 +1,21 @@
+{
+  "library_name": "org.apache.deltaspike.core:deltaspike-core-impl",
+  "core_problem_solved": "To provide the concrete runtime implementation for the portable CDI (Contexts and Dependency Injection) extensions defined in the `deltaspike-core-api` artifact.",
+  "key_features": [
+    "Contains the actual logic for DeltaSpike's core features, such as type-safe project stage mechanisms",
+    "Implements advanced configuration injection from various sources",
+    "Provides the backing implementation for security and exception handling extensions for CDI beans"
+  ],
+  "era_and_niche": "A required runtime dependency for any application using the Apache DeltaSpike Core module to enhance its CDI capabilities, primarily within the Java EE / Jakarta EE ecosystem.",
+  "reason_for_obsolescence": "Its relevance mirrors that of its API artifact. As modern CDI versions and frameworks like **Quarkus** and **Micronaut** have natively incorporated many of the features that DeltaSpike pioneered, the need for this implementation in new projects has significantly decreased. It remains relevant for applications built on older Java EE standards.",
+  "keywords_for_analysis": [
+    "CDI",
+    "Java EE",
+    "Jakarta EE",
+    "dependency injection",
+    "implementation",
+    "API",
+    "Quarkus",
+    "Micronaut"
+  ]
+}

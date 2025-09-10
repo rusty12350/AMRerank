@@ -1,0 +1,20 @@
+{
+  "library_name": "org.scribe:scribe",
+  "core_problem_solved": "To provide a simple, fluent API for handling the complex OAuth 1.0a and OAuth 2.0 authorization flows in Java applications, abstracting away the details of request signing and token exchange.",
+  "key_features": [
+    "A clean, fluent API for configuring OAuth services for different providers (e.g., Twitter, Facebook)",
+    "Handles the multi-step token request and exchange process",
+    "Automatically signs HTTP requests with the necessary OAuth credentials"
+  ],
+  "era_and_niche": "A very popular and easy-to-use OAuth client library in the early 2010s, praised for its simplicity and clean design.",
+  "reason_for_obsolescence": "This library is **obsolete** and is no longer maintained. It has been succeeded by an active and popular community fork called **ScribeJava**. The modern, recommended replacement is **`com.github.scribejava:scribejava-core`** and its related modules, which support many more APIs and are actively maintained.",
+  "keywords_for_analysis": [
+    "OAuth",
+    "API",
+    "authentication",
+    "security",
+    "legacy",
+    "ScribeJava",
+    "fork"
+  ]
+}

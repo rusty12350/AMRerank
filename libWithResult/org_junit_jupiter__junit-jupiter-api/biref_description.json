@@ -1,0 +1,21 @@
+{
+  "library_name": "org.junit.jupiter:junit-jupiter-api",
+  "core_problem_solved": "To provide the public Application Programming Interface (API), including annotations and assertion methods, for writing tests using the JUnit Jupiter (JUnit 5) programming model.",
+  "key_features": [
+    "Defines all JUnit 5 testing annotations (`@Test`, `@ParameterizedTest`, `@DisplayName`, `@Tag`, etc.)",
+    "Provides the `Assertions` class with all its static assertion methods (`assertEquals`, `assertTrue`, etc.)",
+    "Defines the extension model API for creating custom test behaviors"
+  ],
+  "era_and_niche": "The standard, modern API for writing unit and integration tests in Java. It is a core component of the JUnit 5 platform and the primary dependency for any developer writing JUnit 5 tests.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is the actively maintained, standard API for JUnit 5. It is the official successor to the API provided by the legacy **`junit:junit`** (JUnit 4) artifact.",
+  "keywords_for_analysis": [
+    "testing",
+    "unit test",
+    "JUnit",
+    "JUnit 5",
+    "Jupiter",
+    "API",
+    "assertion",
+    "TDD"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "library_name": "mysql:mysql-connector-java",
+  "core_problem_solved": "To provide a standard, Type 4 JDBC driver for Java applications to connect and interact with MySQL databases.",
+  "key_features": [
+    "Implements the Java Database Connectivity (JDBC) API",
+    "Enables connection pooling, statement execution, and result set processing",
+    "Handles MySQL-specific data types and features"
+  ],
+  "era_and_niche": "The official and essential JDBC driver for the world's most popular open-source relational database, used by millions of Java applications for decades under this coordinate.",
+  "reason_for_obsolescence": "The specific Maven coordinate `mysql:mysql-connector-java` is now **legacy**. The project was rebranded and moved to a new coordinate: **`com.mysql:mysql-connector-j`**. All modern projects should use the new coordinate to receive the latest updates, bug fixes, and features.",
+  "keywords_for_analysis": [
+    "JDBC",
+    "database driver",
+    "MySQL",
+    "SQL",
+    "relational database",
+    "JPA",
+    "Hibernate"
+  ]
+}

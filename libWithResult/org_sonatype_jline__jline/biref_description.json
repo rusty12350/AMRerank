@@ -1,0 +1,20 @@
+{
+  "library_name": "org.sonatype.jline:jline",
+  "core_problem_solved": "To provide a Java library for advanced console input handling, including line editing, history, and tab completion, similar to a standard Unix shell.",
+  "key_features": [
+    "Rich console line editing",
+    "Command history",
+    "A framework for tab-completion"
+  ],
+  "era_and_niche": "An older version and Maven coordinate for the JLine library, a key component for building interactive command-line tools in Java. This coordinate was used before the project moved to its own dedicated groupId.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The JLine project moved to a new groupId and has been significantly updated. The modern and actively maintained successor is **`org.jline:jline`**. Any project using the `org.sonatype` version should migrate.",
+  "keywords_for_analysis": [
+    "CLI",
+    "console",
+    "terminal",
+    "JLine",
+    "REPL",
+    "legacy",
+    "Maven coordinates"
+  ]
+}

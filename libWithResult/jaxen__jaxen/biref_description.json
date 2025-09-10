@@ -1,0 +1,20 @@
+{
+  "library_name": "jaxen:jaxen",
+  "core_problem_solved": "To provide a universal and object-model-independent XPath engine for Java, allowing developers to execute XPath queries against various XML document representations (DOM, dom4j, JDOM, etc.) using a single API.",
+  "key_features": [
+    "XPath 1.0 compliance",
+    "An adapter-based architecture for supporting multiple XML object models",
+    "Provides a single, consistent API for XPath evaluation regardless of the underlying XML parser"
+  ],
+  "era_and_niche": "A popular and powerful XPath library in the early-to-mid 2000s, especially in complex enterprise projects that used a variety of XML parsers and needed a consistent querying layer.",
+  "reason_for_obsolescence": "It has been largely rendered obsolete by the inclusion of a standard XPath API (`javax.xml.xpath`) within the Java JDK itself since Java 5 (as part of JAXP 1.3). For most use cases, the native JDK implementation is sufficient and highly preferred in order to reduce external dependencies. The project is no longer actively maintained.",
+  "keywords_for_analysis": [
+    "XPath",
+    "XML",
+    "JAXP",
+    "DOM",
+    "JDOM",
+    "dom4j",
+    "query language"
+  ]
+}

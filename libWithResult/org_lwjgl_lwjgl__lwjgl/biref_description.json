@@ -1,0 +1,21 @@
+{
+  "library_name": "org.lwjgl.lwjgl:lwjgl",
+  "core_problem_solved": "To provide a low-level Java wrapper for popular C libraries like OpenGL, OpenAL, and OpenCL, enabling high-performance game and multimedia application development in Java.",
+  "key_features": [
+    "Direct bindings to OpenGL for hardware-accelerated 3D graphics",
+    "Bindings to OpenAL for 3D positional audio",
+    "Low-level input handling for keyboards, mice, and game controllers"
+  ],
+  "era_and_niche": "A foundational library for Java game development. This specific coordinate refers to the legacy LWJGL 2, which was famously used to create the original PC version of *Minecraft*.",
+  "reason_for_obsolescence": "This specific artifact and its groupId (`org.lwjgl.lwjgl`) are **legacy**. The project was completely rewritten as **LWJGL 3**, which is modular, more modern, and uses the `org.lwjgl` groupId. The modern approach is to depend on the new BOM (`org.lwjgl:lwjgl-bom`) and select the specific modules needed (e.g., `org.lwjgl:lwjgl-opengl`).",
+  "keywords_for_analysis": [
+    "LWJGL",
+    "OpenGL",
+    "gaming",
+    "graphics",
+    "Java game",
+    "Minecraft",
+    "JNI",
+    "legacy"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "library_name": "jdom:jdom",
+  "core_problem_solved": "To provide a Java-optimized API for building and manipulating XML documents in memory, designed as an easier-to-use alternative to the standard W3C DOM.",
+  "key_features": [
+    "A concrete, class-based object model for XML, using Java Collections.",
+    "A focus on ease of use and simplicity for Java developers."
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the pioneering JDOM XML API, popular in the early 2000s.",
+  "reason_for_obsolescence": "This artifact and coordinate are **obsolete**. The project moved to the `org.jdom` groupId and released a completely rewritten successor, **`org.jdom:jdom2`**. The entire JDOM family is also considered a legacy choice for new projects compared to JAXB or Jackson-XML for data binding.",
+  "keywords_for_analysis": [
+    "XML",
+    "DOM",
+    "parser",
+    "legacy",
+    "JDOM2",
+    "dom4j"
+  ]
+}

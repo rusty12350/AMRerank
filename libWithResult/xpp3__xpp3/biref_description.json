@@ -1,0 +1,20 @@
+{
+  "library_name": "xpp3:xpp3",
+  "core_problem_solved": "To provide a fast and lightweight implementation of the XML Pull Parsing (XPP) API, an alternative, event-based streaming model for processing XML documents where the client code 'pulls' events from the parser.",
+  "key_features": [
+    "An event-based pull parsing API",
+    "Small memory footprint and high parsing speed compared to DOM-based parsers",
+    "Simple API for iterating through an XML document's structure"
+  ],
+  "era_and_niche": "A popular, high-performance XML parser in the early 2000s, particularly before the standardization of a pull parsing API in the JDK. It was used in many early XML-RPC and SOAP libraries that required efficient streaming.",
+  "reason_for_obsolescence": "This library and the XPP API it implements are **obsolete**. The official standard for XML pull parsing in Java is the **StAX API** (`javax.xml.stream`, JSR-173), which has been included in the JDK since Java 6. Modern applications should use the standard StAX API, with a high-performance implementation like **Woodstox** if needed.",
+  "keywords_for_analysis": [
+    "XML",
+    "parser",
+    "pull parsing",
+    "XPP",
+    "StAX",
+    "legacy",
+    "Woodstox"
+  ]
+}

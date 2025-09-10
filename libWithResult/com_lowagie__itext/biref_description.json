@@ -1,0 +1,20 @@
+{
+  "library_name": "com.lowagie:itext",
+  "core_problem_solved": "To provide an open-source Java library for creating and manipulating PDF documents under a permissive license.",
+  "key_features": [
+    "PDF generation from Java code",
+    "PDF manipulation (concatenating, splitting pages)",
+    "Form filling (AcroForms)",
+    "Support for adding text, images, and tables to documents"
+  ],
+  "era_and_niche": "A highly popular and foundational PDF library for Java in the 2000s, known for its powerful feature set and permissive (MPL/LGPL) open-source license.",
+  "reason_for_obsolescence": "This artifact is **obsolete**. The project continued under a new coordinate, **`com.itextpdf:itextpdf`**, with a more restrictive AGPL license starting with version 5. Due to this license change, a popular community fork of this older, permissively licensed version (2.x) was created, called **OpenPDF (`com.github.librepdf:openpdf`)**.",
+  "keywords_for_analysis": [
+    "PDF",
+    "iText",
+    "legacy",
+    "LGPL",
+    "OpenPDF",
+    "PDFBox"
+  ]
+}

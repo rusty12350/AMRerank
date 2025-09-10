@@ -1,0 +1,19 @@
+{
+  "library_name": "net.htmlparser.jericho:jericho-html",
+  "core_problem_solved": "To provide a Java library for parsing and manipulating every element of an HTML document, with a strong focus on handling malformed documents and providing direct access to the stream of tags, attributes, and content.",
+  "key_features": [
+    "High-performance parsing of valid or invalid HTML",
+    "Extraction of text and tag-specific content, including server-side tags",
+    "Ability to render modified HTML by replacing, inserting, or deleting elements"
+  ],
+  "era_and_niche": "A popular HTML parsing library for Java in the mid-to-late 2000s, often used for web scraping and detailed content analysis due to its robustness with real-world, messy HTML.",
+  "reason_for_obsolescence": "The library is **inactive and considered obsolete**. The modern, de facto standard for HTML parsing, traversal, and manipulation in Java is **`org.jsoup:jsoup`**. Jsoup provides a more comprehensive and convenient API, including powerful CSS selectors, and is actively maintained.",
+  "keywords_for_analysis": [
+    "HTML",
+    "parser",
+    "web scraping",
+    "DOM",
+    "jsoup",
+    "NekoHTML"
+  ]
+}

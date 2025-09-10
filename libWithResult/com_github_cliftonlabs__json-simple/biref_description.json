@@ -1,0 +1,21 @@
+{
+  "library_name": "com.github.cliftonlabs:json-simple",
+  "core_problem_solved": "To provide a very lightweight, simple, and dependency-free toolkit for encoding and decoding JSON text in Java, prioritizing ease of use and a minimal footprint over advanced features.",
+  "key_features": [
+    "Parsing JSON text into standard Java objects (Map, List, String, Number, etc.)",
+    "Serializing Java Maps and Lists into JSON text",
+    "Small JAR size with zero external dependencies",
+    "Compliant with JSON standards (RFC 4627)"
+  ],
+  "era_and_niche": "A modern fork and continuation of the original `json-simple` library, which was popular in environments where minimizing dependencies and JAR size was critical (e.g., Android, constrained environments). It serves the niche of providing basic JSON functionality without the complexity of larger frameworks.",
+  "reason_for_obsolescence": "While not technically obsolete due to being actively maintained, its feature set is very limited compared to modern standards like Jackson or Gson. Most enterprise and complex applications would not choose it due to its lack of data binding (POJO mapping), streaming APIs, and advanced configuration options. It is a functional alternative only when simplicity is the absolute highest priority.",
+  "keywords_for_analysis": [
+    "JSON",
+    "lightweight",
+    "simple",
+    "parser",
+    "serialization",
+
+    "no-dependencies"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "org.codehaus.castor:castor",
+  "core_problem_solved": "To provide a data binding framework for marshalling/unmarshalling Java objects to and from XML documents, and also for object-relational mapping (ORM) for database persistence.",
+  "key_features": [
+    "XML data binding (marshalling and unmarshalling)",
+    "Object-Relational Mapping (ORM) via Java Data Objects (JDO)",
+    "Data validation against XML schemas"
+  ],
+  "era_and_niche": "A prominent data binding tool in the early 2000s for enterprise Java applications that relied heavily on XML, hosted at the now-defunct Codehaus repository for open-source projects.",
+  "reason_for_obsolescence": "This library is **obsolete**. Its XML-binding functionality was superseded by the JAXB (Java Architecture for XML Binding) standard included in the JDK (since Java 6). Its ORM functionality was superseded by more powerful and standard frameworks like Hibernate (JPA). The entire Codehaus project hosting service has also been shut down, marking the project as historical.",
+  "keywords_for_analysis": [
+    "XML",
+    "data binding",
+    "marshalling",
+    "ORM",
+    "JDO",
+    "JAXB",
+    "legacy",
+    "Codehaus"
+  ]
+}

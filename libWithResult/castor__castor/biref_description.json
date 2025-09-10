@@ -1,0 +1,21 @@
+{
+  "library_name": "castor:castor",
+  "core_problem_solved": "To provide a comprehensive data binding framework for Java, primarily for marshalling/unmarshalling Java objects to and from XML documents, and also for object-relational mapping (ORM) via JDO.",
+  "key_features": [
+    "XML data binding (marshalling and unmarshalling)",
+    "Object-Relational Mapping (ORM) via Java Data Objects (JDO)",
+    "Data validation against XML schemas",
+    "SQL query generation for persistence"
+  ],
+  "era_and_niche": "Prominent in the early 2000s (pre-Java 6), it was a key tool for enterprise Java applications that were heavily reliant on XML for data interchange and configuration before JAXB was standardized.",
+  "reason_for_obsolescence": "Largely superseded by the integration of JAXB (Java Architecture for XML Binding) into the standard JDK since Java 6. The industry's general shift from XML to JSON for data interchange also led to the dominance of libraries like Jackson and Gson, making Castor's XML features less relevant.",
+  "keywords_for_analysis": [
+    "XML",
+    "data binding",
+    "marshalling",
+    "unmarshalling",
+    "JDO",
+    "ORM",
+    "serialization"
+  ]
+}

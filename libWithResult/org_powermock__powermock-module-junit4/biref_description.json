@@ -1,0 +1,18 @@
+{
+  "library_name": "org.powermock:powermock-module-junit4",
+  "core_problem_solved": "To provide a custom JUnit 4 Runner that enables PowerMock's bytecode manipulation capabilities during the test lifecycle.",
+  "key_features": [
+    "A `@RunWith(PowerMockRunner.class)` runner for JUnit 4",
+    "Uses a custom classloader to allow modification of system classes, final classes, and other normally unmodifiable code before tests are run"
+  ],
+  "era_and_niche": "An essential component for using the PowerMock framework with the JUnit 4 testing framework.",
+  "reason_for_obsolescence": "This is a **legacy library**. Its core dependency, PowerMock, is discouraged, and the test framework it supports, JUnit 4, has been superseded by JUnit 5. PowerMock has no official, stable support for JUnit 5, making this entire testing stack obsolete for modern projects.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "PowerMock",
+    "JUnit 4",
+    "legacy",
+    "classloader"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "org.apache.derby:derby",
+  "core_problem_solved": "To provide a pure-Java, transactional, embeddable SQL database engine that can be run directly within a Java application without needing a separate server process.",
+  "key_features": [
+    "A full-featured SQL database engine that can be embedded in an application",
+    "Support for standard JDBC and SQL",
+    "Transactional integrity (ACID compliance)",
+    "A small footprint, making it suitable for embedding"
+  ],
+  "era_and_niche": "A pure-Java, open-source relational database from the Apache Software Foundation. It was also known as Java DB when it was included in some versions of the Oracle JDK. It is used for applications with simple, embedded database needs.",
+  "reason_for_obsolescence": "While the project is still maintained, it is considered a **legacy choice** for new projects. Its popularity and feature development have been surpassed by the **H2 database engine** (`com.h2database:h2`), which is now the de facto standard for embedded and in-memory databases in the Java ecosystem, particularly for automated testing.",
+  "keywords_for_analysis": [
+    "JDBC",
+    "database",
+    "embedded database",
+    "Derby",
+    "Java DB",
+    "legacy",
+    "H2"
+  ]
+}

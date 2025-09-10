@@ -1,0 +1,20 @@
+{
+  "library_name": "com.carrotsearch:hppc",
+  "core_problem_solved": "To provide a set of high-performance collections for Java primitive types (e.g., int, double), aiming to reduce memory consumption and improve speed by avoiding the overhead of wrapper objects (autoboxing).",
+  "key_features": [
+    "Type-specific lists, sets, and maps for Java primitives",
+    "Templates-based code generation for a clean and consistent API",
+    "Designed to have a small memory footprint"
+  ],
+  "era_and_niche": "A high-quality, specialized performance library for applications dealing with large amounts of primitive data, such as search engines (originating from Carrot Search) and data analytics.",
+  "reason_for_obsolescence": "While a well-designed library, it is now considered a **legacy choice** with less active development and smaller community adoption compared to its main competitor. The de facto standard and more widely adopted library in the high-performance primitive collections space is **`it.unimi.dsi:fastutil`**.",
+  "keywords_for_analysis": [
+    "collections",
+    "performance",
+    "primitive types",
+    "autoboxing",
+    "garbage collection",
+    "fastutil",
+    "Trove"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "com.fasterxml.jackson.core:jackson-annotations",
+  "core_problem_solved": "To provide a standard set of annotations for controlling the data binding process (Java objects to/from JSON) within the Jackson ecosystem, allowing developers to declaratively configure serialization and deserialization behavior directly in their POJOs.",
+  "key_features": [
+    "Annotations to control property names (e.g., @JsonProperty)",
+    "Annotations to ignore properties (e.g., @JsonIgnore)",
+    "Annotations for handling polymorphism and custom serialization/deserialization logic",
+    "Annotations for controlling object creation and views"
+  ],
+  "era_and_niche": "A core, foundational component of the Jackson data-processing library, which is the de facto standard for JSON handling in the Java ecosystem. It is a modern, actively maintained, and ubiquitous library.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is a fundamental part of the Jackson project. Migration away from it would only occur if a project decided to switch its entire JSON processing framework to an alternative like Gson, which uses its own set of annotations.",
+  "keywords_for_analysis": [
+    "Jackson",
+    "JSON",
+    "annotation",
+    "serialization",
+    "deserialization",
+    "data binding",
+    "POJO"
+  ]
+}

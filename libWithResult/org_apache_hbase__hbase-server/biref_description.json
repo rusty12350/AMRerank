@@ -1,0 +1,20 @@
+{
+  "library_name": "org.apache.hbase:hbase-server",
+  "core_problem_solved": "To provide the core server-side components of the Apache HBase distributed database, including the HMaster and HRegionServer functionalities.",
+  "key_features": [
+    "Contains the implementation of the distributed, persistent, sorted map data store",
+    "Manages data storage on HDFS, including compactions and region splitting",
+    "Implements the server-side RPC endpoints for client requests and inter-server communication"
+  ],
+  "era_and_niche": "A core server-side module of the Apache HBase project. It is not typically used as a dependency by standard client applications, but rather by the HBase deployment itself or for advanced, server-side programming (like coprocessors).",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is the current, actively maintained server implementation for HBase and is the direct successor to the server functionality that was previously bundled in the monolithic `org.apache.hbase:hbase` artifact.",
+  "keywords_for_analysis": [
+    "HBase",
+    "NoSQL",
+    "Bigtable",
+    "Hadoop",
+    "big data",
+    "RegionServer",
+    "database server"
+  ]
+}

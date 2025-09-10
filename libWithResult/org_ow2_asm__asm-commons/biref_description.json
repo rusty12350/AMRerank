@@ -1,0 +1,18 @@
+{
+  "library_name": "org.ow2.asm:asm-commons",
+  "core_problem_solved": "To provide higher-level, common utilities and adapters built on top of the core ASM API to simplify common bytecode transformation tasks.",
+  "key_features": [
+    "Provides useful classes like `AdviceAdapter` for instrumenting method bodies",
+    "Includes `LocalVariablesSorter` and `Remapper` for complex class transformations",
+    "Simplifies common patterns, reducing the amount of raw bytecode manipulation needed"
+  ],
+  "era_and_niche": "A standard extension module for the ASM framework, used by developers who need to perform common bytecode transformations without dropping down to the lowest-level, most verbose API.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is a current and standard part of the modular ASM ecosystem, meant to be used alongside the core `asm` artifact.",
+  "keywords_for_analysis": [
+    "bytecode",
+    "ASM",
+    "adapter",
+    "utility",
+    "code transformation"
+  ]
+}

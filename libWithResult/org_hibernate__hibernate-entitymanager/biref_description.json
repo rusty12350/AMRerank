@@ -1,0 +1,18 @@
+{
+  "library_name": "org.hibernate:hibernate-entitymanager",
+  "core_problem_solved": "To provide the implementation of the standard Java Persistence API (JPA) on top of the Hibernate ORM core, acting as a bridge between the standard `EntityManager` API and Hibernate's native `Session` API.",
+  "key_features": [
+    "Contains the implementation of `javax.persistence.EntityManagerFactory` and `javax.persistence.EntityManager`",
+    "Allows Hibernate to be used as a standard JPA provider in any compliant application server or environment"
+  ],
+  "era_and_niche": "A mandatory dependency for any application using Hibernate as its JPA implementation during the Hibernate 3, 4, and early 5 eras. It was the official bridge to the JPA standard.",
+  "reason_for_obsolescence": "This artifact is **obsolete** and should no longer be used directly. Starting with Hibernate 5.2, the JPA APIs and this bridge module were merged directly into the core module. The functionality is now included in **`org.hibernate.orm:hibernate-core`** (for Hibernate 6+) or the older `org.hibernate:hibernate-core`.",
+  "keywords_for_analysis": [
+    "Hibernate",
+    "JPA",
+    "ORM",
+    "EntityManager",
+    "persistence",
+    "legacy"
+  ]
+}

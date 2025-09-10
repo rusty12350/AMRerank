@@ -1,0 +1,21 @@
+{
+  "library_name": "org.testng:testng",
+  "core_problem_solved": "To provide a flexible and powerful testing framework for Java, designed to cover a wider range of testing categories (unit, functional, integration, end-to-end) and overcome perceived limitations in older versions of JUnit.",
+  "key_features": [
+    "Annotation-based test configuration (e.g., `@BeforeSuite`, `@Test`)",
+    "Test groups for categorizing and selectively running tests",
+    "Data-driven tests via a `@DataProvider` mechanism",
+    "Native support for parallel test execution"
+  ],
+  "era_and_niche": "A major Java testing framework, which rose to prominence as a powerful alternative to JUnit 4 by introducing many features that later influenced the design of JUnit 5.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. However, it is in direct and strong competition with **JUnit 5 (Jupiter)**. While TestNG remains powerful and is heavily used in many large, established projects, JUnit 5 has become the de facto standard for most new Java projects, particularly within the Spring ecosystem. The choice between them is often a matter of project history or specific feature requirements.",
+  "keywords_for_analysis": [
+    "testing",
+    "unit test",
+    "TestNG",
+    "JUnit",
+    "JUnit 5",
+    "assertion",
+    "TDD"
+  ]
+}

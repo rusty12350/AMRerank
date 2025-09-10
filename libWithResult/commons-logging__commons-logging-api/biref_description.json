@@ -1,0 +1,18 @@
+{
+  "library_name": "commons-logging:commons-logging-api",
+  "core_problem_solved": "To provide only the API interfaces and classes for the Jakarta Commons Logging (JCL) facade, allowing libraries to code against the API without forcing a specific runtime implementation on their users.",
+  "key_features": [
+    "Contains the core `org.apache.commons.logging.Log` and `LogFactory` classes that application code compiles against."
+  ],
+  "era_and_niche": "The compile-time dependency for libraries that wanted to use the JCL logging facade in the early-to-mid 2000s.",
+  "reason_for_obsolescence": "This API is **obsolete** for the same reasons as the main library. The modern, standard logging API to code against is **`org.slf4j:slf4j-api`**. To handle legacy libraries that still use JCL, the `jcl-over-slf4j` bridge is the recommended solution.",
+  "keywords_for_analysis": [
+    "logging",
+    "facade",
+    "JCL",
+    "legacy",
+    "obsolete",
+    "SLF4J",
+    "API"
+  ]
+}

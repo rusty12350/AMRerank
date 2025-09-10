@@ -1,0 +1,19 @@
+{
+  "library_name": "net.sf.flexjson:flexjson",
+  "core_problem_solved": "To provide a lightweight Java library for serializing Java objects into JSON, with a focus on giving developers fine-grained, programmatic control over which fields are included or excluded in the output.",
+  "key_features": [
+    "Path-based expressions for deep and shallow serialization control",
+    "Custom transformers for formatting specific data types",
+    "A simple, fluent API for defining serialization rules"
+  ],
+  "era_and_niche": "A niche JSON serialization library from the late 2000s, used by developers who needed more dynamic control over the serialization process than what was offered by other early JSON libraries.",
+  "reason_for_obsolescence": "This is a **legacy library** and is no longer maintained. Its core features for selectively including/excluding fields during serialization have been fully implemented and surpassed by the industry-standard libraries **Jackson** (using features like `@JsonView` and filters) and **Gson** (using `ExclusionStrategy`).",
+  "keywords_for_analysis": [
+    "JSON",
+    "serialization",
+    "legacy",
+    "obsolete",
+    "Jackson",
+    "Gson"
+  ]
+}

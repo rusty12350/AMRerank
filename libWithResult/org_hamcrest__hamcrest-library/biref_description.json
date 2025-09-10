@@ -1,0 +1,19 @@
+{
+  "library_name": "org.hamcrest:hamcrest-library",
+  "core_problem_solved": "To provide a rich library of concrete `Matcher` implementations for the Hamcrest testing framework, covering common assertions for collections, text, numbers, and object properties, which are not included in the core module.",
+  "key_features": [
+    "A wide variety of matchers like `hasItem`, `containsString`, `closeTo` for numbers",
+    "Matcher combinators like `allOf` and `anyOf` for creating complex assertion rules",
+    "Extends the basic assertion capabilities of `hamcrest-core`"
+  ],
+  "era_and_niche": "A standard component of the Hamcrest 1.x ecosystem, providing the 'batteries-included' set of matchers for everyday testing. It was used alongside `hamcrest-core`.",
+  "reason_for_obsolescence": "This artifact is **legacy**. In the modern Hamcrest 2.x, the core and library modules were merged into a single, unified artifact: **`org.hamcrest:hamcrest`**. Furthermore, the matcher-based assertion style itself has been largely superseded in popularity by the more readable fluent assertion style of **AssertJ** (`org.assertj:assertj-core`).",
+  "keywords_for_analysis": [
+    "testing",
+    "assertion",
+    "matching",
+    "Hamcrest",
+    "legacy",
+    "AssertJ"
+  ]
+}

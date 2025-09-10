@@ -1,0 +1,22 @@
+{
+  "library_name": "org.bushe:eventbus",
+  "core_problem_solved": "To provide a simple, in-memory, publish-subscribe event bus for Java applications, enabling decoupled, event-driven communication between different components of an application.",
+  "key_features": [
+    "Publish-subscribe messaging pattern",
+    "Decoupling of components (publishers and subscribers do not need to know about each other)",
+    "Support for different threading models for event delivery",
+    "Annotation-based and interface-based subscriber methods"
+  ],
+  "era_and_niche": "An early and straightforward implementation of the event bus pattern for Java, useful for simplifying component communication in desktop or monolithic server-side applications.",
+  "reason_for_obsolescence": "While the event bus pattern remains highly relevant, this specific library is **largely considered a legacy choice**. It has been superseded by more modern and powerful libraries, most notably **Google Guava's EventBus** and **MBassador**. These alternatives offer better performance, more features (like asynchronous event delivery), and are more actively maintained and widely adopted.",
+  "keywords_for_analysis": [
+    "event bus",
+    "publish-subscribe",
+    "pub-sub",
+    "event-driven",
+
+    "decoupling",
+    "Guava EventBus",
+    "MBassador"
+  ]
+}

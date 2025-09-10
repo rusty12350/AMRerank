@@ -1,0 +1,17 @@
+{
+  "library_name": "postgresql:postgresql",
+  "core_problem_solved": "To provide a standard, Type 4 JDBC driver for Java applications to connect and interact with PostgreSQL databases.",
+  "key_features": [
+    "Implemented the Java Database Connectivity (JDBC) API for PostgreSQL."
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the official PostgreSQL JDBC driver, used for many years before Java project naming conventions standardized around reversed domain names for groupIds.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The project officially moved to a new, more standard groupId to follow modern conventions. The direct and actively maintained successor is **`org.postgresql:postgresql`**.",
+  "keywords_for_analysis": [
+    "JDBC",
+    "database driver",
+    "PostgreSQL",
+    "Postgres",
+    "legacy",
+    "Maven coordinates"
+  ]
+}

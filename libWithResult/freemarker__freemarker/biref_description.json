@@ -1,0 +1,19 @@
+{
+  "library_name": "freemarker:freemarker",
+  "core_problem_solved": "To provide a general-purpose template engine for Java, allowing for the separation of presentation (the template) from the application logic and data model.",
+  "key_features": [
+    "A powerful and comprehensive template language (FTL)",
+    "Data model abstraction that works with POJOs, Maps, etc.",
+    "Template caching for high-performance rendering"
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the popular FreeMarker template engine, used in the 2000s before the project moved to a more standard groupId.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The project officially moved to a new, more standard groupId. The direct and actively maintained successor is **`org.freemarker:freemarker`**. The technology itself is not obsolete but competes with modern alternatives like Thymeleaf.",
+  "keywords_for_analysis": [
+    "template engine",
+    "MVC",
+    "templating",
+    "legacy",
+    "Thymeleaf",
+    "Velocity"
+  ]
+}

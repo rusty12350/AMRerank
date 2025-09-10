@@ -1,0 +1,19 @@
+{
+  "library_name": "commons-lang:commons-lang",
+  "core_problem_solved": "To provide a host of helper utilities for the `java.lang` API, adding functionality for common operations that are missing or cumbersome in the standard Java library, such as null-safe string manipulation.",
+  "key_features": [
+    "String manipulation utilities (`StringUtils`)",
+    "Object utilities (`ObjectUtils`)",
+    "Builder classes for `equals`, `hashCode`, and `toString` methods",
+    "Number and character utilities"
+  ],
+  "era_and_niche": "A foundational and nearly ubiquitous utility library in the Java ecosystem throughout the 2000s, providing essential helpers for countless applications.",
+  "reason_for_obsolescence": "This library is a **legacy library**. It was officially superseded by a major new version, **`org.apache.commons:commons-lang3`**. The new version uses a different package name (`org.apache.commons.lang3`) to allow side-by-side usage and is the actively maintained and recommended version for all projects.",
+  "keywords_for_analysis": [
+    "utility library",
+    "StringUtils",
+    "Apache Commons",
+    "legacy",
+    "commons-lang3"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "library_name": "org.htmlparser:htmlparser",
+  "core_problem_solved": "To provide an open-source Java library for parsing and extracting information from HTML documents, designed to be tolerant of malformed, real-world HTML that does not strictly adhere to standards.",
+  "key_features": [
+    "Parsing HTML into a traversable node tree",
+    "A visitor pattern for processing nodes in the tree",
+    "A filtering system with predicates for finding specific tags or content"
+  ],
+  "era_and_niche": "One of the early, popular HTML parsers for Java, widely used for web scraping and content analysis in the early-to-mid 2000s.",
+  "reason_for_obsolescence": "The library is **completely obsolete**. It has been unmaintained for over a decade (since around 2006). The modern, actively maintained, and feature-rich de facto standard for all HTML parsing and manipulation in Java is **`org.jsoup:jsoup`**.",
+  "keywords_for_analysis": [
+    "HTML",
+    "parser",
+    "web scraping",
+    "legacy",
+    "obsolete",
+    "jsoup"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "library_name": "org.freemarker:freemarker",
+  "core_problem_solved": "To provide a general-purpose template engine for Java, allowing for a clean separation of presentation (the template for HTML, email, etc.) from the application logic and data model.",
+  "key_features": [
+    "A powerful and comprehensive template language (FTL - FreeMarker Template Language)",
+    "Data model abstraction (works with POJOs, Maps, etc.)",
+    "Internationalization (i18n) and localization support",
+    "Template caching for high-performance rendering"
+  ],
+  "era_and_niche": "A mature and widely used template engine in the Java ecosystem, used for generating a wide variety of text outputs from web pages and emails to source code and configuration files.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is a primary competitor to other popular template engines. In the Spring Boot ecosystem, **Thymeleaf** is often the default choice for web views, but FreeMarker is a fully supported and popular alternative. The choice is typically based on project requirements and developer preference.",
+  "keywords_for_analysis": [
+    "template engine",
+    "MVC",
+    "templating",
+    "view layer",
+    "Thymeleaf",
+    "Velocity",
+    "JSP"
+  ]
+}

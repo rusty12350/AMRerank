@@ -1,0 +1,20 @@
+{
+  "library_name": "ch.qos.logback:logback-classic",
+  "core_problem_solved": "To provide a fast, flexible, and reliable logging framework for Java applications, designed as the spiritual and direct successor to the original Log4j 1.x project.",
+  "key_features": [
+    "Native implementation of the SLF4J API, eliminating the need for a separate binding JAR",
+    "Advanced filtering capabilities to control log output with fine-grained precision",
+    "Automatic reloading of configuration files for on-the-fly changes",
+    "A wide variety of appenders for directing log output (console, file, database, sockets, etc.)"
+  ],
+  "era_and_niche": "One of the two leading modern logging implementations for the Java ecosystem (along with Log4j 2). It is the default logging framework included in Spring Boot and is therefore extremely widely used in modern enterprise applications.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is an actively maintained, state-of-the-art logging framework. Its primary and direct competitor is **Apache Log4j 2** (`org.apache.logging.log4j:log4j-core`). The choice between Logback and Log4j 2 is a common architectural decision for Java projects.",
+  "keywords_for_analysis": [
+    "logging",
+    "SLF4J",
+    "Logback",
+    "Log4j",
+    "Log4j2",
+    "framework"
+  ]
+}

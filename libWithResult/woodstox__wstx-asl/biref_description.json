@@ -1,0 +1,21 @@
+{
+  "library_name": "woodstox:wstx-asl",
+  "core_problem_solved": "To provide a complete, high-performance, and fully compliant implementation of the StAX (Streaming API for XML) and the extended Stax2 APIs for Java.",
+  "key_features": [
+    "A fast and efficient streaming XML parser (both reader and writer)",
+    "Full compliance with the standard StAX (JSR-173) and extended Stax2 APIs",
+    "Robust error handling and validation features"
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the Woodstox XML parser, hosted at the now-defunct Codehaus repository. It was a leading choice for high-performance XML processing.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The project moved from Codehaus to the FasterXML organization (the same group behind the Jackson JSON library). The modern and actively maintained successor is **`com.fasterxml.woodstox:woodstox-core`**.",
+  "keywords_for_analysis": [
+    "XML",
+    "StAX",
+    "parser",
+    "performance",
+    "Woodstox",
+    "Jackson",
+    "legacy",
+    "Codehaus"
+  ]
+}

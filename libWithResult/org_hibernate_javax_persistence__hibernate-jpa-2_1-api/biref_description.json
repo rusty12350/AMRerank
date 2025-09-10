@@ -1,0 +1,18 @@
+{
+  "library_name": "org.hibernate.javax.persistence:hibernate-jpa-2.1-api",
+  "core_problem_solved": "To provide the standard Java Persistence API (JPA) 2.1 interfaces and annotations, as a convenience dependency bundled and published by the Hibernate project itself.",
+  "key_features": [
+    "Contains the standard `javax.persistence` package and all its annotations (`@Entity`, `@Id`, etc.) and interfaces (`EntityManager`)."
+  ],
+  "era_and_niche": "A convenience artifact for developers using Hibernate as their JPA provider, common in the Java EE 7 era before the official API artifacts were consistently available and used from central repositories.",
+  "reason_for_obsolescence": "This artifact is **obsolete**. Modern applications should depend on the official, vendor-neutral API artifact for Jakarta Persistence, which is **`jakarta.persistence:jakarta.persistence-api`**. Relying on a provider-specific copy of the API is a bad practice that can lead to dependency conflicts if other libraries on the classpath bring in the official API.",
+  "keywords_for_analysis": [
+    "JPA",
+    "persistence",
+    "API",
+    "Jakarta Persistence",
+    "Java EE",
+    "Hibernate",
+    "legacy"
+  ]
+}

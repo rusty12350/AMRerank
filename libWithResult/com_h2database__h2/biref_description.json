@@ -1,0 +1,22 @@
+{
+  "library_name": "com.h2database:h2",
+  "core_problem_solved": "To provide a fast, open-source, and embeddable SQL database written in Java, with a special focus on ease of use for development and automated testing.",
+  "key_features": [
+    "Can run in multiple modes: in-memory, embedded (file-based), or client-server",
+    "Provides a browser-based console for database inspection and management",
+    "High compatibility with standard SQL and other database-specific modes (e.g., PostgreSQL compatibility mode)",
+    "Extremely fast startup and execution time with a very small footprint"
+  ],
+  "era_and_niche": "The modern, de facto standard embedded relational database for the Java ecosystem. It is the most popular choice for running automated tests (unit, integration) against a real SQL database and for lightweight application data storage.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is a leader in its category, having largely surpassed older competitors like **HSQLDB** and **Apache Derby** in popularity and features. It also competes with file-based databases like **SQLite**.",
+  "keywords_for_analysis": [
+    "H2",
+    "database",
+    "embedded database",
+    "in-memory",
+    "JDBC",
+    "SQL",
+    "testing",
+    "HSQLDB"
+  ]
+}

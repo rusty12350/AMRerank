@@ -1,0 +1,19 @@
+{
+  "library_name": "org.antlr:antlr",
+  "core_problem_solved": "This is the **tool** artifact for ANTLR (ANother Tool for Language Recognition). Its purpose is to read a grammar file (.g4) and generate parser and lexer source code in a target language (like Java). It is a build-time dependency used by developers, not a runtime dependency for applications.",
+  "key_features": [
+    "Grammar file processing",
+    "Parser and lexer code generation for multiple target languages",
+    "Command-line interface for running the generator"
+  ],
+  "era_and_niche": "A foundational tool in the field of compilers and language design. This artifact is used during the development and build phase of any project that utilizes ANTLR for parsing.",
+  "reason_for_obsolescence": "This artifact is **not obsolete**, but it's important to distinguish it from the runtime. It represents an older version (v2/v3) of the tool. The modern ANTLR tool is **`org.antlr:antlr4`**, which corresponds to the ANTLR v4 grammar and runtime. Therefore, `org.antlr:antlr` is a legacy coordinate.",
+  "keywords_for_analysis": [
+    "ANTLR",
+    "tool",
+    "code generation",
+    "parser generator",
+    "compiler",
+    "build tool"
+  ]
+}

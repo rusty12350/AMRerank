@@ -1,0 +1,22 @@
+{
+  "library_name": "log4j:log4j",
+  "core_problem_solved": "To provide a flexible and configurable logging framework for Java applications, allowing developers to control log message formatting and output destinations (appenders) at runtime.",
+  "key_features": [
+    "Hierarchical loggers based on class names",
+    "Support for multiple log levels (DEBUG, INFO, ERROR, etc.)",
+    "Configurable appenders for output to console, files, sockets, etc.",
+    "Pattern-based layouts for formatting log messages"
+  ],
+  "era_and_niche": "The de facto standard logging framework for Java throughout the 2000s, and one of the most widely used and influential Java libraries in history.",
+  "reason_for_obsolescence": "This library (Log4j 1.x) is **obsolete, unmaintained, and contains known critical security vulnerabilities**. It officially reached its End-Of-Life (EOL) in 2015. The modern, official successor is the complete rewrite, **Log4j 2** (`org.apache.logging.log4j:log4j-core`). The other primary modern alternative is **Logback** (`ch.qos.logback:logback-classic`).",
+  "keywords_for_analysis": [
+    "logging",
+    "Log4j",
+    "legacy",
+    "obsolete",
+    "vulnerability",
+    "Log4j2",
+    "Logback",
+    "SLF4J"
+  ]
+}

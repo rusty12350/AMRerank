@@ -1,0 +1,20 @@
+{
+  "library_name": "xalan:xalan",
+  "core_problem_solved": "To provide an XSLT processor for Java, allowing developers to transform XML documents into other formats (like HTML, text, or another XML structure) using XSLT 1.0 stylesheets and XPath 1.0 expressions.",
+  "key_features": [
+    "An implementation of the XSLT 1.0 and XPath 1.0 W3C recommendations",
+    "Integration with the Java API for XML Processing (JAXP) as a transformation engine",
+    "Support for extension functions written in Java"
+  ],
+  "era_and_niche": "A foundational library in the Java XML ecosystem, serving as the default XSLT processor in many JDK versions and application servers throughout the 2000s.",
+  "reason_for_obsolescence": "This library is a **legacy library**. It only supports the outdated XSLT 1.0 and XPath 1.0 standards, which lack many features required for complex transformations. The modern, state-of-the-art functional replacement for Xalan is the **Saxon** processor (`net.sf.saxon:saxon-he`), which implements the vastly more powerful XSLT 3.0 standard.",
+  "keywords_for_analysis": [
+    "XSLT",
+    "XPath",
+    "XML",
+    "transformation",
+    "JAXP",
+    "legacy",
+    "Saxon"
+  ]
+}

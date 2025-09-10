@@ -1,0 +1,18 @@
+{
+  "library_name": "org.slf4j:log4j-over-slf4j",
+  "core_problem_solved": "To redirect logging calls made to the legacy Log4j 1.x API, routing them through the SLF4J facade instead. This allows for a unified logging backend in applications that have transitive dependencies on the older `log4j:log4j` framework.",
+  "key_features": [
+    "Provides a custom implementation of the Log4j 1.x API that acts as a bridge to SLF4J.",
+    "Enables projects to have a single, modern, and consistent logging implementation (like Logback or Log4j 2) even when legacy libraries are present."
+  ],
+  "era_and_niche": "A crucial utility library within the SLF4J ecosystem for managing logging in complex, real-world applications. It is the standard solution for resolving conflicts when a project must include legacy libraries that use Log4j 1.x.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is an actively maintained and essential 'bridge' module for the SLF4J project. Its purpose is to provide backward compatibility, and its necessity is only removed when a project no longer has any dependencies that use the legacy Log4j 1.x API.",
+  "keywords_for_analysis": [
+    "SLF4J",
+    "Log4j",
+    "logging",
+    "facade",
+    "bridge",
+    "legacy"
+  ]
+}

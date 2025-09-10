@@ -1,0 +1,21 @@
+{
+  "library_name": "org.hsqldb:hsqldb",
+  "core_problem_solved": "To provide a lightweight, standards-compliant, embeddable SQL database engine written entirely in Java.",
+  "key_features": [
+    "Can run in multiple modes: in-memory, embedded (file-based), or as a standalone server",
+    "Strong adherence to SQL standards and ACID compliance for transactions",
+    "A small memory footprint, making it suitable for embedding"
+  ],
+  "era_and_niche": "A pioneering and for many years, a leading embedded SQL database for Java, widely used for application data storage and automated testing. This is its modern coordinate.",
+  "reason_for_obsolescence": "While still actively maintained, it is considered a **legacy choice** for new projects. It has been largely superseded in popularity, features, and performance by the **H2 database engine** (`com.h2database:h2`), which is now the de facto standard for embedded and in-memory databases in the Java testing and development ecosystem.",
+  "keywords_for_analysis": [
+    "HSQLDB",
+    "database",
+    "embedded database",
+    "in-memory",
+    "JDBC",
+    "SQL",
+    "testing",
+    "H2"
+  ]
+}

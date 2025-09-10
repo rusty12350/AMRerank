@@ -1,0 +1,21 @@
+{
+  "library_name": "cglib:cglib",
+  "core_problem_solved": "To provide runtime proxying and bytecode generation for Java classes, specifically enabling the creation of proxies for classes that do not implement interfaces, which is a limitation of Java's native `java.lang.reflect.Proxy`.",
+  "key_features": [
+    "Creating dynamic proxies of classes via runtime subclassing",
+    "Method interception through a callback mechanism",
+    "Bytecode manipulation and generation",
+    "Enabling advanced framework features like AOP and lazy loading"
+  ],
+  "era_and_niche": "A foundational, behind-the-scenes library for many major Java frameworks like Spring AOP and Hibernate for over a decade. It is essential for enabling core aspect-oriented programming (AOP) and ORM features like lazy object initialization.",
+  "reason_for_obsolescence": "While still very widely used as a transitive dependency, it is often considered a legacy library for new development. Modern projects and frameworks (e.g., newer versions of Hibernate) are increasingly favoring more powerful and flexible bytecode manipulation libraries like Byte Buddy.",
+  "keywords_for_analysis": [
+    "proxy",
+    "AOP",
+    "bytecode generation",
+    "method interception",
+    "Hibernate",
+    "Spring",
+    "Byte Buddy"
+  ]
+}

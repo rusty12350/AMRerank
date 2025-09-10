@@ -1,0 +1,21 @@
+{
+  "library_name": "com.googlecode.json-simple:json-simple",
+  "core_problem_solved": "To provide a very lightweight, simple, and dependency-free toolkit for encoding and decoding JSON text in Java.",
+  "key_features": [
+    "Parsing JSON text into standard Java objects (Map, List, etc.)",
+    "Serializing Java collections into JSON text",
+    "Minimal JAR size with zero external dependencies"
+  ],
+  "era_and_niche": "An early, minimalist JSON library popular in environments where a small footprint and zero dependencies were critical, such as early Android development or resource-constrained applets.",
+  "reason_for_obsolescence": "This specific artifact is **obsolete** and is no longer maintained as it was hosted on the archived Google Code platform. The project has been continued by a community fork, **`com.github.cliftonlabs:json-simple`**. Even the modern fork is a niche library, as most applications prefer the feature-rich industry standards, **Jackson** and **Gson**.",
+  "keywords_for_analysis": [
+    "JSON",
+    "lightweight",
+    "simple",
+    "parser",
+    "legacy",
+    "fork",
+    "Jackson",
+    "Gson"
+  ]
+}

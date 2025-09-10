@@ -1,0 +1,19 @@
+{
+  "library_name": "org.ow2.asm:asm",
+  "core_problem_solved": "To provide a small, fast, and low-level Java bytecode manipulation and analysis framework, which can be used to dynamically generate classes or enhance existing classes at runtime.",
+  "key_features": [
+    "A visitor-based API for reading, transforming, and writing compiled Java class files",
+    "A core API for direct bytecode instruction manipulation",
+    "Minimal memory footprint and high performance"
+  ],
+  "era_and_niche": "A foundational, high-performance library in the JVM ecosystem. It is used as a core dependency by a vast number of other frameworks, compilers, and tools that need to interact with Java bytecode, including the JDK itself, Spring, and Mockito.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the core modular artifact for the ASM project and the recommended dependency for accessing the base API. It is the bedrock upon which higher-level bytecode libraries are often built.",
+  "keywords_for_analysis": [
+    "bytecode",
+    "ASM",
+    "instrumentation",
+    "class loading",
+    "AOP",
+    "code generation"
+  ]
+}

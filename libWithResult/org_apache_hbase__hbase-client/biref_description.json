@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.hbase:hbase-client",
+  "core_problem_solved": "To provide the official client library for Java applications to connect to, read from, and write to a remote Apache HBase cluster.",
+  "key_features": [
+    "Provides the client-side API for all HBase data operations (Get, Put, Scan, Delete)",
+    "Manages connections to the cluster, including locating regions",
+    "Abstracts the complexity of the underlying RPC communication with HBase servers"
+  ],
+  "era_and_niche": "The standard and essential client dependency for any modern Java application that interacts with Apache HBase. It is a core component of the Hadoop and big data ecosystem.",
+  "reason_for_obsolescence": "This library is **not obsolete**. It is the current, actively maintained client for HBase and is the direct successor to the client functionality that was previously bundled in the monolithic `org.apache.hbase:hbase` artifact.",
+  "keywords_for_analysis": [
+    "HBase",
+    "NoSQL",
+    "Bigtable",
+    "Hadoop",
+    "big data",
+    "database client"
+  ]
+}

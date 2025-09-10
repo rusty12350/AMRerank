@@ -1,0 +1,18 @@
+{
+  "library_name": "org.codehaus.jackson:jackson-xc",
+  "core_problem_solved": "To provide JAXB (Java Architecture for XML Binding) annotation support for the legacy Jackson 1.x JSON library, allowing Jackson's ObjectMapper to process POJOs that were annotated for XML serialization.",
+  "key_features": [
+    "An annotation introspector that enabled Jackson 1.x's `ObjectMapper` to understand and apply standard JAXB annotations (e.g., `@XmlElement`, `@XmlAttribute`)."
+  ],
+  "era_and_niche": "A specialized extension module for the legacy Jackson 1.x series, useful for projects that needed to support both JSON and XML serialization with a single set of annotations on their model classes.",
+  "reason_for_obsolescence": "This artifact is **obsolete**. It is part of the legacy Jackson 1.x ecosystem (`org.codehaus.jackson`), which was completely superseded by Jackson 2.x (`com.fasterxml.jackson`). The modern Jackson 2.x has its own official module for this functionality, called **`com.fasterxml.jackson.module:jackson-module-jaxb-annotations`**.",
+  "keywords_for_analysis": [
+    "Jackson",
+    "JSON",
+    "JAXB",
+    "XML",
+    "annotations",
+    "legacy",
+    "obsolete"
+  ]
+}

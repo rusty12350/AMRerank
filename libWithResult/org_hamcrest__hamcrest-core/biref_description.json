@@ -1,0 +1,19 @@
+{
+  "library_name": "org.hamcrest:hamcrest-core",
+  "core_problem_solved": "To provide the core framework for Hamcrest matchers, including the `assertThat` assertion method and the basic `Matcher` interface, which allows for creating flexible and declarative assertion rules.",
+  "key_features": [
+    "The `assertThat(value, matcher)` assertion method",
+    "The core `Matcher` interface",
+    "A small set of fundamental matchers (e.g., `is`, `equalTo`, `not`, `any`)"
+  ],
+  "era_and_niche": "The foundational API for the Hamcrest matching library. It is a core dependency of JUnit 4 and was a very popular assertion style for many years.",
+  "reason_for_obsolescence": "While Hamcrest as a concept is not obsolete, this specific artifact is **legacy**. It has been superseded by the unified **`org.hamcrest:hamcrest`** artifact in modern versions (Hamcrest 2.x). In terms of programming style, the matcher-based assertions of Hamcrest have been largely superseded in popularity by the fluent assertion style of **AssertJ** for new projects.",
+  "keywords_for_analysis": [
+    "testing",
+    "assertion",
+    "matching",
+    "Hamcrest",
+    "JUnit",
+    "AssertJ"
+  ]
+}

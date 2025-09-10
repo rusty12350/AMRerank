@@ -1,0 +1,17 @@
+{
+  "library_name": "concurrent:concurrent",
+  "core_problem_solved": "This was an early Maven coordinate for the library that backported the `java.util.concurrent` (JSR-166) APIs to pre-Java 5 platforms, enabling advanced concurrent programming on legacy systems.",
+  "key_features": [
+    "Provided foundational concurrency utilities like thread pools, futures, and concurrent collections for older versions of Java."
+  ],
+  "era_and_niche": "A precursor or alternative coordinate for `backport-util-concurrent`, used in the very early 2000s before Maven naming conventions fully standardized. It's a relic of early Java dependency management.",
+  "reason_for_obsolescence": "This specific coordinate is **doubly obsolete**. First, it was superseded by the more standard `backport-util-concurrent:backport-util-concurrent` coordinate. Second, the entire `backport-util-concurrent` library itself became obsolete with the release of Java 5, which integrated all its functionality into the standard JDK.",
+  "keywords_for_analysis": [
+    "concurrency",
+    "backport",
+    "JSR-166",
+    "legacy",
+    "obsolete",
+    "Maven coordinates"
+  ]
+}

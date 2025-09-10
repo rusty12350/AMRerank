@@ -1,0 +1,21 @@
+{
+  "library_name": "args4j:args4j",
+  "core_problem_solved": "To simplify the parsing of command-line arguments in a Java application by mapping them to annotated fields in a POJO, removing the need for boilerplate manual parsing code.",
+  "key_features": [
+    "Annotation-based mapping of command-line options and arguments to Java fields",
+    "Automatic generation of usage text and help messages",
+    "Support for various data types and argument handlers",
+    "Small footprint and minimal dependencies"
+  ],
+  "era_and_niche": "A popular and lightweight command-line parsing library in the Java ecosystem, particularly valued for its simplicity and annotation-driven approach in the late 2000s and early 2010s.",
+  "reason_for_obsolescence": "While still functional, it has been largely superseded in features and community mindshare by more modern and powerful libraries, especially `picocli`. `picocli` offers superior features like ANSI colored help messages, complex subcommand support, and shell auto-completion scripts, making it the current de facto standard for new Java CLI applications.",
+  "keywords_for_analysis": [
+    "CLI",
+    "command-line",
+    "argument parsing",
+    "options",
+    "flags",
+    "picocli",
+    "JCommander"
+  ]
+}

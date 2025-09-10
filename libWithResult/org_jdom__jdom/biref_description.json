@@ -1,0 +1,21 @@
+{
+  "library_name": "org.jdom:jdom",
+  "core_problem_solved": "Provides a Java-optimized API for building and manipulating XML documents in memory, offering a more intuitive alternative to the standard, language-agnostic W3C DOM APIs.",
+  "key_features": [
+    "Concrete, class-based object model for XML (unlike the interface-based W3C DOM)",
+    "Integrates with Java Collections Framework for intuitive data manipulation",
+    "Focuses on simplicity and ease of use for Java developers"
+  ],
+  "era_and_niche": "One of the pioneering alternative XML APIs for Java, widely used in the early 2000s alongside dom4j and other libraries for its developer-friendly approach compared to the standard DOM.",
+  "reason_for_obsolescence": "This library is obsolete and no longer actively maintained. Many projects have migrated to newer XML libraries, including its successor JDOM2, or alternatives like dom4j, XOM, or JAXP-based implementations.",
+  "keywords_for_analysis": [
+    "XML",
+    "DOM",
+    "parser",
+    "legacy",
+    "dom4j",
+    "XOM",
+    "JAXP",
+    "xerces"
+  ]
+}

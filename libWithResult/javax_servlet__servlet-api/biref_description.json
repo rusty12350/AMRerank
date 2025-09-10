@@ -1,0 +1,19 @@
+{
+  "library_name": "javax.servlet:servlet-api",
+  "core_problem_solved": "To define a standard Application Programming Interface (API) for Java that specifies the contract between a web application and a web container (like Tomcat or Jetty), providing the foundational components for handling HTTP requests and responses.",
+  "key_features": [
+    "Defines core interfaces and classes such as `Servlet`, `HttpServlet`, `HttpServletRequest`, `HttpServletResponse`, `Filter`, and `HttpSession`."
+  ],
+  "era_and_niche": "The absolute foundation of Java web development for over two decades. All major Java web frameworks, from the original Struts and JSF to the modern Spring MVC and REST frameworks, were built on top of this specification.",
+  "reason_for_obsolescence": "The `javax.servlet` namespace itself is now considered **legacy**. When Java EE was moved to the Eclipse Foundation and rebranded as Jakarta EE, the package namespace was officially changed to `jakarta.servlet` to avoid trademark issues. The modern and actively developed successor to this API is **`jakarta.servlet:jakarta.servlet-api`**. All new development should use the `jakarta.*` coordinates.",
+  "keywords_for_analysis": [
+    "servlet",
+    "Java EE",
+    "Jakarta EE",
+    "JSP",
+    "web container",
+    "Tomcat",
+    "Jetty",
+    "API specification"
+  ]
+}

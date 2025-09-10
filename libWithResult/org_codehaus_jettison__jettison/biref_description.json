@@ -1,0 +1,21 @@
+{
+  "library_name": "org.codehaus.jettison:jettison",
+  "core_problem_solved": "To provide a StAX (Streaming API for XML) implementation that reads and writes JSON, effectively allowing XML-centric code and frameworks to handle JSON data without major architectural changes by mapping XML conventions to JSON.",
+  "key_features": [
+    "A StAX API for JSON processing",
+    "Conventions for mapping XML constructs (namespaces, attributes) to JSON",
+    "Integration with JAXB for object-to-JSON conversion via an XML-based API"
+  ],
+  "era_and_niche": "A key library during the transition period from XML-dominant to JSON-dominant web services (late 2000s, early 2010s). It was a crucial component in early JAX-RS (Java API for RESTful Web Services) implementations like Jersey and Apache CXF.",
+  "reason_for_obsolescence": "The library is **largely obsolete**. Modern applications and frameworks are now 'JSON-first' and use dedicated, high-performance JSON libraries like **Jackson** or **Gson** directly. The problem of needing to adapt an XML-based toolchain to handle JSON is no longer a relevant concern for new development.",
+  "keywords_for_analysis": [
+    "JSON",
+    "XML",
+    "StAX",
+    "JAX-RS",
+    "web service",
+    "conversion",
+    "Jackson",
+    "Gson"
+  ]
+}

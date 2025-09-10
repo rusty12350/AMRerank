@@ -1,0 +1,19 @@
+{
+  "library_name": "net.sourceforge.collections:collections-generic",
+  "core_problem_solved": "To provide a version of the popular Apache Commons Collections library that was retrofitted with Java 5 Generics, offering compile-time type safety that the original library lacked.",
+  "key_features": [
+    "The same feature set as the original `commons-collections`, but with generic type parameters.",
+    "Offered type-safe wrappers for collections."
+  ],
+  "era_and_niche": "A transitional library that existed in the period immediately following the release of Java 5 (around 2005-2008). It served as a community-provided stop-gap for developers who wanted the features of Commons Collections with the benefits of generics before an official solution was available.",
+  "reason_for_obsolescence": "This library is **completely obsolete**. It was an unofficial, temporary solution. The problem was officially solved by the release of **`org.apache.commons:commons-collections4`**, which is fully generic. Furthermore, the entire niche of advanced collections utilities is now better served by the industry-standard **`com.google.guava:guava`**.",
+  "keywords_for_analysis": [
+    "collections",
+    "generics",
+    "Apache Commons",
+    "legacy",
+    "obsolete",
+    "Guava",
+    "commons-collections4"
+  ]
+}

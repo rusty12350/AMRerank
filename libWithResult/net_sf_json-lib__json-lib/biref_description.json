@@ -1,0 +1,20 @@
+{
+  "library_name": "net.sf.json-lib:json-lib",
+  "core_problem_solved": "To provide one of the early, comprehensive libraries for converting between Java objects (Beans, Maps, Collections), and even XML, and their JSON representations.",
+  "key_features": [
+    "Conversion of Java Beans to and from JSON",
+    "Support for a tree-like navigation of JSON objects (`JSONObject`, `JSONArray`)",
+    "Utilities for transforming XML to JSON"
+  ],
+  "era_and_niche": "One of the early, feature-rich JSON libraries for Java, used in the mid-to-late 2000s before the current standards like Jackson and Gson emerged and stabilized.",
+  "reason_for_obsolescence": "This library is **completely obsolete** and has been unmaintained for over a decade. It is known to be slow and has a complex API compared to modern alternatives. The entire Java community has long since standardized on **Jackson** and **Gson** for all JSON processing needs.",
+  "keywords_for_analysis": [
+    "JSON",
+    "serialization",
+
+    "legacy",
+    "obsolete",
+    "Jackson",
+    "Gson"
+  ]
+}

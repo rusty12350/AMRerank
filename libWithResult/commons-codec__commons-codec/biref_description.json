@@ -1,0 +1,22 @@
+{
+  "library_name": "commons-codec:commons-codec",
+  "core_problem_solved": "To provide a suite of common encoding and decoding algorithms that are not natively available in the standard Java Development Kit (JDK), such as Base64 (pre-Java 8), Hex, and phonetic encoders.",
+  "key_features": [
+    "Implementations of Base64, Hexadecimal, and URL encoding",
+    "Phonetic encoding algorithms (Soundex, Metaphone)",
+    "Cryptographic hashing functions (MD5, various SHA variants)",
+    "Binary and string encoders"
+  ],
+  "era_and_niche": "A foundational utility library from the Apache Commons project, widely used in nearly all types of Java applications for data encoding, decoding, and hashing tasks for almost two decades.",
+  "reason_for_obsolescence": "The library is **not obsolete** and is actively maintained. However, one of its most common use cases, **Base64 encoding, was standardized and added to the JDK in Java 8** (`java.util.Base64`). For modern projects needing only Base64, the native JDK implementation is now preferred to reduce dependencies. The library remains essential for its many other encoding and hashing algorithms.",
+  "keywords_for_analysis": [
+    "encoding",
+    "decoding",
+    "Base64",
+    "Hex",
+    "hashing",
+    "MD5",
+    "SHA",
+    "utility library"
+  ]
+}

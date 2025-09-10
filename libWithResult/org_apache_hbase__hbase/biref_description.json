@@ -1,0 +1,18 @@
+{
+  "library_name": "org.apache.hbase:hbase",
+  "core_problem_solved": "To provide the complete Apache HBase distributed database system in a single, monolithic artifact, including both client and server components.",
+  "key_features": [
+    "Contained all classes for running HBase servers (Master, RegionServer) and for connecting as a client to the cluster."
+  ],
+  "era_and_niche": "The original, legacy artifact for early versions of HBase, before the project was properly modularized for better dependency management.",
+  "reason_for_obsolescence": "This artifact is **obsolete** due to **modularization**. The HBase project was split into multiple, more granular modules to provide better separation of concerns. Applications that need to connect to an HBase cluster should now depend on the **`org.apache.hbase:hbase-client`** artifact instead.",
+  "keywords_for_analysis": [
+    "HBase",
+    "NoSQL",
+    "Bigtable",
+    "Hadoop",
+    "big data",
+    "modularization",
+    "legacy"
+  ]
+}

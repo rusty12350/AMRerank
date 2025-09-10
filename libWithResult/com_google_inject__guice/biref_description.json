@@ -1,0 +1,21 @@
+{
+  "library_name": "com.google.inject:guice",
+  "core_problem_solved": "To provide a lightweight and powerful dependency injection (DI) framework for Java, enabling developers to build loosely coupled and easily testable applications by removing the need for factories or direct object construction.",
+  "key_features": [
+    "Annotation-based dependency injection (`@Inject`), compliant with the JSR-330 standard",
+    "A programmatic API for configuring bindings (in `Module`s)",
+    "Support for aspect-oriented programming (AOP) through method interceptors",
+    "A focus on fast startup time and minimal configuration"
+  ],
+  "era_and_niche": "A highly influential, lightweight DI framework developed by Google. It popularized annotation-based DI in the Java community and was a major alternative to the XML-based configuration of early Spring Framework versions.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. However, in the broader Java ecosystem, the **Spring Framework's DI container** has become the de facto industry standard, particularly for web and enterprise applications. While Guice is an excellent pure DI framework, most developers encounter and use DI as an integrated part of the larger Spring/Spring Boot ecosystem.",
+  "keywords_for_analysis": [
+    "dependency injection",
+    "DI",
+    "inversion of control",
+    "IoC",
+    "Guice",
+    "JSR-330",
+    "Spring Framework"
+  ]
+}

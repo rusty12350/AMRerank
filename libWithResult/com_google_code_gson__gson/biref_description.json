@@ -1,0 +1,21 @@
+{
+  "library_name": "com.google.code.gson:gson",
+  "core_problem_solved": "To provide a simple and reliable Java library for serializing Java objects into their JSON representation and deserializing JSON strings back into Java objects.",
+  "key_features": [
+    "Object-to-JSON (serialization) and JSON-to-object (deserialization) data binding",
+    "Excellent built-in support for complex generic types (e.g., `List<String>`)",
+    "A simple, easy-to-use API that requires minimal configuration for common use cases",
+    "Allows for custom serializers and deserializers for complex mappings"
+  ],
+  "era_and_niche": "A modern and highly popular JSON processing library for Java, developed and used internally by Google. It is one of the top two choices for JSON handling in the Java ecosystem.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the primary and direct competitor to **Jackson** (`com.fasterxml.jackson.core:jackson-databind`). The choice between the two often depends on project needs, with Jackson offering more extensive configuration and features, while Gson is often considered simpler for straightforward use cases.",
+  "keywords_for_analysis": [
+    "Gson",
+    "JSON",
+    "serialization",
+    "deserialization",
+    "Google",
+    "data binding",
+    "Jackson"
+  ]
+}

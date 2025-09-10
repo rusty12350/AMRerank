@@ -1,0 +1,19 @@
+{
+  "library_name": "xstream:xstream",
+  "core_problem_solved": "To provide a simple library for serializing Java objects to XML and back again without requiring mappings or annotations.",
+  "key_features": [
+    "Reflection-based serialization of arbitrary objects",
+    "Clean, human-readable XML output",
+    "Deserialization of XML back into object graphs"
+  ],
+  "era_and_niche": "A legacy Maven coordinate for the XStream XML serialization library.",
+  "reason_for_obsolescence": "This coordinate is **obsolete**; the modern coordinate is **`com.thoughtworks.xstream:xstream`**. Furthermore, the library itself is a legacy choice and is **strongly discouraged** due to a history of critical security vulnerabilities related to deserialization. Modern, safer alternatives are JAXB or the Jackson-XML extension.",
+  "keywords_for_analysis": [
+    "XML",
+    "serialization",
+    "vulnerability",
+    "legacy",
+    "JAXB",
+    "Jackson"
+  ]
+}

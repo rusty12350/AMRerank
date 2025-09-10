@@ -1,0 +1,21 @@
+{
+  "library_name": "org.eclipse.persistence:eclipselink",
+  "core_problem_solved": "To provide a comprehensive and standards-compliant persistence solution for Java, acting as the official reference implementation for the Jakarta Persistence API (JPA) for object-relational mapping (ORM) and other data-binding standards.",
+  "key_features": [
+    "A complete JPA implementation for object-relational mapping",
+    "Object-to-XML binding via JAXB (Java Architecture for XML Binding)",
+    "Object-to-JSON binding",
+    "Support for NoSQL databases in addition to relational ones"
+  ],
+  "era_and_niche": "A major, modern persistence framework in the Jakarta EE ecosystem. It is one of the two primary competitors in the JPA space, alongside Hibernate, and serves as the official reference implementation for the specification.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is a direct and primary competitor to **Hibernate**. While Hibernate has a larger community adoption (especially in the Spring ecosystem), EclipseLink is a fully compliant and powerful alternative for any application using JPA.",
+  "keywords_for_analysis": [
+    "JPA",
+    "ORM",
+    "persistence",
+    "Jakarta EE",
+    "Hibernate",
+    "JAXB",
+    "database"
+  ]
+}

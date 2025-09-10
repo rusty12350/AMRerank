@@ -1,0 +1,19 @@
+{
+  "library_name": "org.neo4j:neo4j",
+  "core_problem_solved": "To provide the full Neo4j graph database server as a single library, enabling it to be embedded directly within a Java application, typically for integration testing or highly specialized standalone applications.",
+  "key_features": [
+    "An embedded, transactional graph database engine",
+    "Implementation of the property graph model",
+    "The Cypher query language engine for graph traversal and manipulation"
+  ],
+  "era_and_niche": "A server artifact for the world's leading graph database. Embedding the database was a common pattern for integration tests or all-in-one applications in the past.",
+  "reason_for_obsolescence": "While Neo4j itself is a modern, leading database, the practice of embedding it via this artifact is now a **legacy approach**. The modern, recommended way to perform integration testing is with **Testcontainers**, which runs a real Neo4j instance in a Docker container. For standard applications to connect to a Neo4j server, they must use the official client driver: **`org.neo4j.driver:neo4j-java-driver`**.",
+  "keywords_for_analysis": [
+    "Neo4j",
+    "graph database",
+    "embedded database",
+    "Cypher",
+    "Testcontainers",
+    "database driver"
+  ]
+}

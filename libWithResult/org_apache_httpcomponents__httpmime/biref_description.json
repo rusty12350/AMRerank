@@ -1,0 +1,19 @@
+{
+  "library_name": "org.apache.httpcomponents:httpmime",
+  "core_problem_solved": "To provide support for MIME (Multipurpose Internet Mail Extensions) compliant data formats, specifically for creating and parsing multipart entities used in HTTP communications, such as file uploads.",
+  "key_features": [
+    "Classes for building multipart HTTP request entities (`MultipartEntityBuilder`)",
+    "Support for different parts in a multipart message (text, binary files, etc.)",
+    "Handles the complexities of MIME headers and content types"
+  ],
+  "era_and_niche": "A standard component of the Apache HttpComponents client library. It is essential for any Java application that needs to send multipart/form-data requests, a common requirement for interacting with web forms that include file uploads.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is maintained as part of the Apache HttpComponents project. However, since Java 11, the standard JDK includes a new, modern `java.net.http.HttpClient` which has built-in support for multipart requests. For new projects on modern Java versions, using the native HttpClient is often preferred to reduce external dependencies, though many existing projects still rely on the mature and feature-rich Apache client.",
+  "keywords_for_analysis": [
+    "HTTP",
+    "MIME",
+    "multipart",
+    "file upload",
+    "Apache HttpComponents",
+    "HttpClient"
+  ]
+}

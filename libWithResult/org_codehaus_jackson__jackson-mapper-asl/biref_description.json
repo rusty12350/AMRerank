@@ -1,0 +1,20 @@
+{
+  "library_name": "org.codehaus.jackson:jackson-mapper-asl",
+  "core_problem_solved": "To provide high-level data binding (object mapping) functionality for converting between Java objects and JSON, for the Jackson 1.x series.",
+  "key_features": [
+    "The original `ObjectMapper` class for data binding in Jackson 1.x.",
+    "Serialization (Java to JSON) and deserialization (JSON to Java)."
+  ],
+  "era_and_niche": "The legacy data-binding module for the Jackson 1.x series. It was the main entry point for most developers using Jackson in its early, formative years.",
+  "reason_for_obsolescence": "This artifact is **obsolete**. The entire Jackson project moved from Codehaus to the FasterXML organization and was rewritten as Jackson 2.x. The direct modern successor is **`com.fasterxml.jackson.core:jackson-databind`**.",
+  "keywords_for_analysis": [
+    "Jackson",
+    "JSON",
+    "databind",
+    "serialization",
+    "legacy",
+    "obsolete",
+    "Codehaus",
+    "FasterXML"
+  ]
+}

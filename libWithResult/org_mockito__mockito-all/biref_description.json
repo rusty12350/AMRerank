@@ -1,0 +1,17 @@
+{
+  "library_name": "org.mockito:mockito-all",
+  "core_problem_solved": "To provide the Mockito mocking framework and all of its required dependencies (like Objenesis and Hamcrest) in a single, convenient 'uber-jar'.",
+  "key_features": [
+    "Bundled the core Mockito engine with all its transitive dependencies into one artifact to simplify build configuration."
+  ],
+  "era_and_niche": "A convenience artifact for older versions of Mockito (primarily 1.x), used to simplify dependency setup in build files before modern build tools made transitive dependency management seamless.",
+  "reason_for_obsolescence": "This artifact is **obsolete and deprecated**. The Mockito project no longer publishes it for modern versions. It is known to cause classpath conflicts ('JAR hell') and is an outdated dependency management practice. The modern approach is to depend on the modular **`org.mockito:mockito-core`** artifact directly, and let the build tool manage transitive dependencies.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "uber-jar",
+    "legacy",
+    "dependency management",
+    "Mockito"
+  ]
+}

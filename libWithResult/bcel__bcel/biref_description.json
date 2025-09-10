@@ -1,0 +1,20 @@
+{
+  "library_name": "bcel:bcel",
+  "core_problem_solved": "To provide a higher-level, object-oriented API for analyzing, creating, and manipulating Java bytecode, abstracting away some of the complexity of raw bytecode instructions found in lower-level libraries.",
+  "key_features": [
+    "An object model representing Java class files (e.g., `JavaClass`, `MethodGen`)",
+    "APIs for creating or modifying classes and methods at a higher level than raw bytecode",
+    "Tools for inspecting and verifying bytecode"
+  ],
+  "era_and_niche": "One of the early, important bytecode manipulation libraries from the Apache Commons project, used in the 2000s for applications that required runtime code analysis or generation.",
+  "reason_for_obsolescence": "This is a **legacy library**. While historically significant, the field of bytecode manipulation in Java is now dominated by two main libraries: **ASM** (`org.ow2.asm:asm`) for its unmatched performance and low-level control, and **Byte Buddy** (`net.bytebuddy:byte-buddy`) for its powerful, modern fluent API. BCEL is rarely used in new development.",
+  "keywords_for_analysis": [
+    "bytecode",
+    "instrumentation",
+    "code generation",
+    "Apache Commons",
+    "legacy",
+    "ASM",
+    "Byte Buddy"
+  ]
+}

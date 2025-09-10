@@ -1,0 +1,21 @@
+{
+  "library_name": "org.mockito:mockito-core",
+  "core_problem_solved": "To provide the core engine for the Mockito mocking framework, enabling the creation and configuration of mock objects (test doubles) for unit testing in Java.",
+  "key_features": [
+    "A clean, fluent, and highly readable API for creating mocks and stubs (`mock()`, `when().thenReturn()`)",
+    "A powerful verification framework to check interactions (`verify()`)",
+    "Flexible argument matchers (`any()`, `eq()`, `argThat()`)",
+    "Support for spying on real objects"
+  ],
+  "era_and_niche": "The de facto industry standard mocking framework for Java. It is a core component of the modern Java testing stack, praised for its simplicity and powerful features.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. It is the **recommended** core dependency for using Mockito and the successor to the older `mockito-all` approach. It superseded older frameworks like EasyMock and JMockit in popularity.",
+  "keywords_for_analysis": [
+    "mocking",
+    "testing",
+    "unit test",
+    "TDD",
+    "Mockito",
+    "JMockit",
+    "EasyMock"
+  ]
+}

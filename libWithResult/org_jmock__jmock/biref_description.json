@@ -1,0 +1,20 @@
+{
+  "library_name": "org.jmock:jmock",
+  "core_problem_solved": "To provide a dynamic mocking framework for Java that allows for the creation of mock objects to facilitate Test-Driven Development (TDD) by isolating the class under test.",
+  "key_features": [
+    "A dynamic mocking framework that creates mocks for interfaces and classes at runtime",
+    "An expressive, expectation-based API using Hamcrest matchers to define expected behavior and constraints",
+    "A focus on TDD principles and clear, readable test definitions"
+  ],
+  "era_and_niche": "A pioneering and influential mocking framework in the Java TDD community in the mid-2000s, serving as a direct competitor to EasyMock. This is its modern coordinate.",
+  "reason_for_obsolescence": "This is a **legacy library**. While historically important for popularizing TDD in Java, its expectation-based syntax and the entire framework were almost completely superseded by the more flexible and readable 'stubbing' approach of **`org.mockito:mockito-core`**. Mockito is now the de facto industry standard for mocking in Java.",
+  "keywords_for_analysis": [
+    "mocking",
+    "TDD",
+    "unit test",
+    "legacy",
+    "Hamcrest",
+    "Mockito",
+    "EasyMock"
+  ]
+}

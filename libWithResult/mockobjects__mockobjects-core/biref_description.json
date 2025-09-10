@@ -1,0 +1,19 @@
+{
+  "library_name": "mockobjects:mockobjects-core",
+  "core_problem_solved": "To provide one of the first frameworks for creating mock objects in Java, enabling Test-Driven Development (TDD) by allowing developers to test objects in isolation from their dependencies.",
+  "key_features": [
+    "A library of base classes and tools for creating mock implementations of interfaces",
+    "An API for setting expectations on mock objects and verifying method calls"
+  ],
+  "era_and_niche": "A pioneering library in the Java unit testing space, popular in the early 2000s with the rise of Extreme Programming (XP) and TDD. It represents the 'classic' style of manual mock creation.",
+  "reason_for_obsolescence": "This library is **completely obsolete** from a modern tooling perspective. It was superseded by dynamic mocking frameworks like EasyMock and, most significantly, **Mockito**, which is the current industry standard. Modern frameworks use runtime proxies or bytecode manipulation and offer far more power and a more convenient API, making the MockObjects approach entirely redundant.",
+  "keywords_for_analysis": [
+    "mocking",
+    "TDD",
+    "unit test",
+    "mock object",
+    "classic mocking",
+    "Mockito",
+    "EasyMock"
+  ]
+}

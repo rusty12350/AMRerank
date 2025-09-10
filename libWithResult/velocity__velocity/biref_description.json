@@ -1,0 +1,19 @@
+{
+  "library_name": "velocity:velocity",
+  "core_problem_solved": "To provide a Java-based template engine that allows for a clean separation of presentation (HTML, SQL, etc.) from business logic (Java code) using the Velocity Template Language (VTL).",
+  "key_features": [
+    "A simple but powerful template language (VTL)",
+    "Renders templates with data provided in a Java 'context' object",
+    "Can be used to generate any text-based format"
+  ],
+  "era_and_niche": "The original, legacy Maven coordinate for the popular Velocity template engine, widely used in the early 2000s, particularly in applications following the Model-View-Controller (MVC) pattern.",
+  "reason_for_obsolescence": "This specific Maven coordinate is **obsolete**. The project became a top-level Apache project and moved to a new, official groupId. The modern and actively maintained successor is **`org.apache.velocity:velocity-engine-core`** (as part of the Apache Velocity Engine).",
+  "keywords_for_analysis": [
+    "template engine",
+    "MVC",
+    "VTL",
+    "legacy",
+    "Thymeleaf",
+    "Apache"
+  ]
+}

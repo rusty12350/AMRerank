@@ -1,0 +1,20 @@
+{
+  "library_name": "httpunit:httpunit",
+  "core_problem_solved": "To provide a Java API for automated, headless testing of web applications, simulating a web browser's behavior like form submission, cookie management, and basic JavaScript execution.",
+  "key_features": [
+    "Emulation of browser behavior for server-side testing",
+    "APIs for interacting with forms, links, and tables in an HTML response",
+    "Cookie management to maintain session state during tests"
+  ],
+  "era_and_niche": "One of the earliest frameworks for 'headless' web testing in Java, popular in the early 2000s for writing integration tests for web applications without a real browser.",
+  "reason_for_obsolescence": "This library is **completely obsolete** and has been unmaintained for over a decade. The concept was improved upon by **HtmlUnit**, but the entire field of browser automation is now standardized on the **Selenium WebDriver** API and newer frameworks like **Playwright**, making HttpUnit a historical artifact.",
+  "keywords_for_analysis": [
+    "web testing",
+    "headless browser",
+    "HtmlUnit",
+    "Selenium",
+    "integration test",
+    "legacy",
+    "obsolete"
+  ]
+}

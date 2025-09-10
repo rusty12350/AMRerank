@@ -1,0 +1,20 @@
+{
+  "library_name": "org.codehaus.groovy:groovy",
+  "core_problem_solved": "To provide the core runtime for the Apache Groovy language, an optionally-typed and dynamic language that runs on the Java Virtual Machine (JVM) and interoperates seamlessly with Java code.",
+  "key_features": [
+    "The Groovy language compiler and core runtime classes.",
+    "Provides a more concise, expressive syntax over Java.",
+    "This is the main, modular dependency for using Groovy."
+  ],
+  "era_and_niche": "A central artifact for the Apache Groovy project, one of the most established and widely used alternative languages on the JVM. It is known for its powerful scripting capabilities and is the language behind the popular build tool Gradle.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. This modular artifact is the **recommended** way to include Groovy in a project, as opposed to the `groovy-all` uber-jar. In the broader ecosystem, it competes with other modern JVM languages like Kotlin and Scala.",
+  "keywords_for_analysis": [
+    "Groovy",
+    "JVM language",
+    "dynamic language",
+    "scripting",
+    "Gradle",
+    "Kotlin",
+    "Scala"
+  ]
+}

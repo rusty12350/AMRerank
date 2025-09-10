@@ -1,0 +1,20 @@
+{
+  "library_name": "net.sf.trove4j:trove4j",
+  "core_problem_solved": "To provide a set of high-performance collections for Java primitive types (e.g., int, float), aiming to reduce memory consumption and improve speed by avoiding the performance overhead of wrapper objects (autoboxing).",
+  "key_features": [
+    "Type-specific maps, sets, and lists for Java primitives (e.g., `TIntObjectHashMap`)",
+    "API designed to mirror the standard Java Collections Framework for ease of use",
+    "Lower memory footprint than standard collections for primitive data"
+  ],
+  "era_and_niche": "A pioneering and once-popular high-performance primitive collections library for Java, widely used in memory-sensitive and performance-critical applications throughout the 2000s.",
+  "reason_for_obsolescence": "This is a **legacy library** that is no longer actively maintained. While it was historically important, the de facto modern standard and actively developed library for high-performance primitive collections in Java is **`it.unimi.dsi:fastutil`**, which is generally considered to be more performant and feature-rich.",
+  "keywords_for_analysis": [
+    "collections",
+    "performance",
+    "primitive types",
+    "autoboxing",
+    "legacy",
+    "fastutil",
+    "hppc"
+  ]
+}

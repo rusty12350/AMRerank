@@ -1,0 +1,20 @@
+{
+  "library_name": "org.xerial:sqlite-jdbc",
+  "core_problem_solved": "To provide a self-contained JDBC driver for the SQLite database engine, allowing Java applications to create, connect to, and interact with file-based SQLite databases.",
+  "key_features": [
+    "A Type 3 JDBC driver that bundles native SQLite libraries for major operating systems (Windows, macOS, Linux)",
+    "Supports the full SQLite feature set and pragmas",
+    "Requires no network configuration, as it interacts directly with a local database file"
+  ],
+  "era_and_niche": "The modern, de facto standard JDBC driver for using the SQLite database from Java. It is widely used for desktop applications, mobile applications (on non-Android JVMs), and for simple, serverless, single-user data storage needs.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is the leading, actively maintained driver for SQLite on the JVM. It competes with other embedded Java databases like **H2** and **HSQLDB**, with the choice depending on specific feature requirements (e.g., H2's in-memory server mode vs. SQLite's widespread multi-platform use).",
+  "keywords_for_analysis": [
+    "SQLite",
+    "JDBC",
+    "database driver",
+    "embedded database",
+    "serverless",
+    "H2",
+    "HSQLDB"
+  ]
+}

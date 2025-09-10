@@ -1,0 +1,20 @@
+{
+  "library_name": "org.jboss.shrinkwrap:shrinkwrap-api",
+  "core_problem_solved": "To provide a Java API for creating virtual file archives (e.g., JAR, WAR, EAR) programmatically. It is the mechanism used by the Arquillian testing framework to define and build test micro-deployments.",
+  "key_features": [
+    "A fluent API for assembling archives in code",
+    "Ability to add classes, packages, resources, and Maven dependencies to an archive",
+    "Exports the created archive to a stream or file for deployment"
+  ],
+  "era_and_niche": "A fundamental and required component of the JBoss Arquillian testing framework, enabling its core 'micro-deployment' strategy.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained as part of the Arquillian ecosystem. Its usage is tightly coupled with Arquillian, so any decision to migrate away from ShrinkWrap would be part of a larger decision to stop using Arquillian in favor of another testing methodology like Testcontainers.",
+  "keywords_for_analysis": [
+    "Arquillian",
+    "testing",
+    "deployment",
+    "archive",
+    "JAR",
+    "WAR",
+    "integration test"
+  ]
+}

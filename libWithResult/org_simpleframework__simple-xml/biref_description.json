@@ -1,0 +1,21 @@
+{
+  "library_name": "org.simpleframework:simple-xml",
+  "core_problem_solved": "To provide an easy-to-use and lightweight framework for serializing Java objects to XML and deserializing them back, using annotations to map fields to XML elements and attributes.",
+  "key_features": [
+    "Annotation-based mapping (`@Root`, `@Element`, `@Attribute`)",
+    "A small footprint, making it suitable for memory-constrained environments like Android",
+    "A focus on simplicity and ease of use over the full JAXB feature set"
+  ],
+  "era_and_niche": "A popular XML data-binding library, particularly in the Android and lightweight application space, known for its simplicity compared to the more complex JAXB standard at the time.",
+  "reason_for_obsolescence": "This is a **legacy library**. While it is a well-designed library that still works, it has not seen significant feature development in many years. The Java world has largely standardized on the **Jackson XML extension** (`com.fasterxml.jackson.dataformat:jackson-dataformat-xml`) for high-performance, feature-rich XML data binding, or the standard **Jakarta XML Binding (JAXB)** for enterprise applications.",
+  "keywords_for_analysis": [
+    "XML",
+    "serialization",
+    "deserialization",
+    "data binding",
+    "Android",
+    "legacy",
+    "Jackson",
+    "JAXB"
+  ]
+}

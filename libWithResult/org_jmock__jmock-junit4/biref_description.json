@@ -1,0 +1,20 @@
+{
+  "library_name": "org.jmock:jmock-junit4",
+  "core_problem_solved": "To provide the necessary integration classes, such as a custom JUnit 4 Runner, to seamlessly use the JMock mocking framework within a JUnit 4 test environment.",
+  "key_features": [
+    "A custom `@RunWith(JMock.class)` runner for JUnit 4",
+    "Automates mock object creation and verification within the standard JUnit 4 test lifecycle",
+    "Simplifies the setup required to use JMock with JUnit 4"
+  ],
+  "era_and_niche": "An essential integration module for any developer using the JMock framework to write tests with the JUnit 4 testing framework.",
+  "reason_for_obsolescence": "This is a **legacy library** because its core dependency, `jmock`, is legacy, and the test framework it integrates with, JUnit 4, has been superseded by JUnit 5. Modern testing stacks use **Mockito** in combination with **JUnit 5**.",
+  "keywords_for_analysis": [
+    "mocking",
+    "TDD",
+    "unit test",
+    "legacy",
+    "JUnit 4",
+    "Mockito",
+    "JUnit 5"
+  ]
+}

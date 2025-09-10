@@ -1,0 +1,22 @@
+{
+  "library_name": "com.squareup.okhttp3:okhttp",
+  "core_problem_solved": "To provide a modern, efficient, and robust HTTP client for Java and Android that supports current web protocols and provides resilient network request handling out of the box.",
+  "key_features": [
+    "Support for HTTP/2 and experimental support for HTTP/3",
+    "Automatic connection pooling for reduced latency",
+    "Transparent GZIP compression for reduced download sizes",
+    "Sophisticated retry, failover, and timeout mechanisms",
+    "First-class support for modern TLS features"
+  ],
+  "era_and_niche": "A leading, modern HTTP client library for the JVM and Android, developed by Square. It is the de facto standard for networking in the Android community and is widely used in server-side Java for its performance and reliability.",
+  "reason_for_obsolescence": "This library is **not obsolete** and is actively maintained. Its primary competitor in the third-party space is **Apache HttpComponents Client**. For projects running on Java 11+, its main competitor is the excellent, built-in **`java.net.http.HttpClient`**, which is often preferred for new projects to avoid external dependencies.",
+  "keywords_for_analysis": [
+    "HTTP client",
+    "networking",
+    "HTTP/2",
+    "OkHttp",
+    "Retrofit",
+    "Apache HttpClient",
+    "Java 11 HttpClient"
+  ]
+}
